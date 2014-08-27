@@ -1,0 +1,30 @@
+01            OPERATION DESCRIPTION                   TOOLING                         050
+02            ANALYSIS METHOD                         GAUGING   SAMPLE    SAMPLE      050
+03                                                              SIZE      FREQ        050
+04            _________________________               _____     ______    ______      050
+05                                                                                    050
+06            SKIVE & BURNISH TO SIZE                                                 050
+07                                                                                    050
+08            DRILL OUT PORT HOLES                     CORDLESS DRILL                 050
+09                                                                                    050
+10            FLAPPER WHEEL PORT HOLES                 AIR GRINDER & FLAP WHEEL       050
+11            & ROLL OVER ON ENTRY CHAMFER                                            050
+12                                                                                    050
+13            DEBURR EXIT END                         ROTARY DEBURRING TOOL           050
+14                                                                                    050
+15            ** REMOVE PORT PLUGS IF REQUIRED                                        050
+01            **INSPECTION REQUIREMENTS**                                             050
+02            INSIDE DIAMETER                         DIAL BORE GAUGE     1-5         050
+03            NO BURRS, SHARP EDGES                   VISUAL              1-1         050
+04                                                                                    050
+05                                                                                    050
+06                                                                                    050
+07                                                                                    050
+08                                                                                    050
+09                                                                                    050
+10                                                                                    050
+11                                                                                    050
+12                                                                                    050
+13                                                                                    050
+14                                                                                    050
+15                                                                                    050

@@ -1,0 +1,15 @@
+01            OPERATION DESCRIPTION                   TOOLING                         040
+02            ANALYSIS METHOD                         GAUGING   SAMPLE    SAMPLE      040
+03                                                              SIZE      FREQ        040
+04            _________________________               _____     ______    ______      040
+05                                                                                    040
+06            FACE TO LENGTH, BORE, CHAMFER                                           040
+07            & THREAD ID, FIN PILOT BORE.                                            040
+08                                                                                    040
+09            **INSPECTION REQUIREMENTS**                                             040
+10                                                                                    040
+11            OVERALL LENGTH                          CALIPER             1-10        040
+12            THREAD PITCH DIAMETER                   THREAD PLUG GAUGE   1-1         040
+13            THREAD MINOR DIAMETER                   CALIPER             1-10        040
+14            LEAD IN BORE                            DIAL BORE GAUGE     1-10        040
+15                                                                                    040

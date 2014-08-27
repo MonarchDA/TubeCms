@@ -1,0 +1,15 @@
+01            OPERATION DESCRIPTION                   TOOLING                         055
+02            ANALYSIS METHOD                         GAUGING   SAMPLE    SAMPLE      055
+03                                                              SIZE      FREQ        055
+04            _________________________               _____     ______    ______      055
+05                                                                                    055
+06            FACE TO LENGTH, CHAMFER BORE                                            055
+07            & ID GROOVE.                                                            055
+08                                                                                    055
+09            **INSPECTION REQUIREMENTS**                                             055
+10                                                                                    055
+11            OVERALL LENGTH                         CALIPER                 1-10     055
+12            GROOVE DIAMETER                        GROOVE CALIPER          1-10     055
+13            GROOVE LOCATION                        CALIPER & WIRE RING     1st OFF  055
+14                                                                                    055
+15            NO BURRS,SHARP EDGES                   VISUAL                   1-1     055

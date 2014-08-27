@@ -1,0 +1,15 @@
+01            OPERATION DESCRIPTION                   TOOLING                         059
+02            ANALYSIS METHOD                         GAUGING   SAMPLE    SAMPLE      059
+03                                                              SIZE      FREQ        059
+04            _________________________               _____     ______    ______      059
+05                                                                                    059
+06            Weld Collar to Tube                                                     059
+07                                                                                    059
+08                                                                                    059
+09                                                                                    059
+10                                                                                    059
+11                                                                                    059
+12            Check parts to BOM/Drawing                        Checked By:           059
+13                                                                                    059
+14                                                                                    059
+15                                                                                    059

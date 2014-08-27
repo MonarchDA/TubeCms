@@ -1,0 +1,15 @@
+01            OPERATION DESCRIPTION                   TOOLING                         030
+02            ANALYSIS METHOD                         GAUGING   SAMPLE    SAMPLE      030
+03                                                              SIZE      FREQ        030
+04            _________________________               _____     ______    ______      030
+05                                                                                    030
+06            WELD FIRST PORT TO TUBE                                                 030
+07            WELD SECOND PORT TO TUBE                                                030
+08                                                                                    030
+09                                                                                    030
+10                                                                                    030
+11                                                                                    030
+12                                                                                    030
+13            CHECK PARTS TO BOM/DRAWING                                              030
+14                                                                                    030
+15                                                                                    030

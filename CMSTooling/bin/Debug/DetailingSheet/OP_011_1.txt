@@ -1,0 +1,15 @@
+OPERATION DESCRIPTION           TOOLING			SPEED	FEED	011
+ANALYSIS METHOD                 GAUGING			SAMPLE	SAMPLE	011
+							SIZE	FREQ	011
+------------------------------  ------------------	------		011
+ 	 	 	 						011
+CALL PROCESS ENGINEER FOR OPERATION DETAILS	 	 		011
+	 	 							011
+									011
+	 	 							011
+	 	 							011
+									011
+	 	 							011
+	 	 							011
+									011
+	 	 							011

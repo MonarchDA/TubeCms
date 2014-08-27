@@ -1,0 +1,11 @@
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\bin\Debug\PresentationLayer.exe
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\bin\Debug\PresentationLayer.pdb
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\bin\Debug\PresentationLayer.xml
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\obj\x86\Debug\PresentationLayer.Form1.resources
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\obj\x86\Debug\PresentationLayer.Resources.resources
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\obj\x86\Debug\PresentationLayer.exe
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\obj\x86\Debug\PresentationLayer.xml
+F:\C#Prac\Practice\CMSToolingApp\PresentationLayer\obj\x86\Debug\PresentationLayer.pdb

@@ -1,0 +1,15 @@
+01            OPERATION DESCRIPTION                   TOOLING                         061
+02            ANALYSIS METHOD                         GAUGING   SAMPLE    SAMPLE      061
+03                                                              SIZE      FREQ        061
+04            _________________________               _____     ______    ______      061
+05                                                                                    061
+06            Weld Clevis Plate to Tube and                                           061
+07            Weld Cross Tube or Lug to                                               061
+08            Clevis Plate                                                            061
+09                                                                                    061
+10                                                                                    061
+11                                                                                    061
+12            Check parts to BOM/Drawing                        Checked By:           061
+13                                                                                    061
+14                                                                                    061
+15                                                                                    061

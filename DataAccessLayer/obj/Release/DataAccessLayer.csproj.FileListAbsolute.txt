@@ -1,0 +1,7 @@
+F:\CMSToolingApp\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+F:\CMSToolingApp\DataAccessLayer\bin\Release\DataAccessLayer.dll
+F:\CMSToolingApp\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+F:\CMSToolingApp\DataAccessLayer\bin\Release\IFLBaseDataLayer.dll
+F:\CMSToolingApp\DataAccessLayer\bin\Release\IFLCommonLayer.dll
+F:\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.dll
+F:\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.pdb

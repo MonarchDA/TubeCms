@@ -1,0 +1,13 @@
+F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.csprojResolveAssemblyReference.cache
+F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.CAMForm.resources
+F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.CMSTool.resources
+F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.Properties.Resources.resources
+F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.UserControlForOP_30.resources
+F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.csproj.GenerateResource.Cache
+F:\CMSToolingApp\CMSTooling\bin\Release\CMSTooling.exe
+F:\CMSToolingApp\CMSTooling\bin\Release\CMSTooling.pdb
+F:\CMSToolingApp\CMSTooling\bin\Release\DataAccessLayer.dll
+F:\CMSToolingApp\CMSTooling\bin\Release\IFLBaseDataLayer.dll
+F:\CMSToolingApp\CMSTooling\bin\Release\DataAccessLayer.pdb
+F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.exe
+F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.pdb

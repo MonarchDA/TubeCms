@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38CEF9D2-12E6-4B4B-ACBC-40D8D057C9AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CMSTooling</RootNamespace>
+    <AssemblyName>CMSTooling</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CMSTooling.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BusinessAccessLayer">
+      <HintPath>..\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BEL.cs" />
+    <Compile Include="CAMForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAMForm.Designer.cs">
+      <DependentUpon>CAMForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMSTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMSTool.Designer.cs">
+      <DependentUpon>CMSTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpingClassToClearControls.cs" />
+    <Compile Include="PortLocatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortLocatorForm.Designer.cs">
+      <DependentUpon>PortLocatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferenceNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReferenceNotes.Designer.cs">
+      <DependentUpon>ReferenceNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlDoubleWorkInstruction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlDoubleWorkInstruction.Designer.cs">
+      <DependentUpon>UserControlDoubleWorkInstruction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlForOP_059.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlForOP_059.Designer.cs">
+      <DependentUpon>UserControlForOP_059.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlForOP_070.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlForOP_070.Designer.cs">
+      <DependentUpon>UserControlForOP_070.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlForOP_30.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlForOP_30.designer.cs">
+      <DependentUpon>UserControlForOP_30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlOP33_155_1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlOP33_155_1.Designer.cs">
+      <DependentUpon>UserControlOP33_155_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WPDSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WPDSForm.Designer.cs">
+      <DependentUpon>WPDSForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CAMForm.resx">
+      <DependentUpon>CAMForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMSTool.resx">
+      <DependentUpon>CMSTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortLocatorForm.resx">
+      <DependentUpon>PortLocatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ReferenceNotes.resx">
+      <DependentUpon>ReferenceNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlDoubleWorkInstruction.resx">
+      <DependentUpon>UserControlDoubleWorkInstruction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlForOP_059.resx">
+      <DependentUpon>UserControlForOP_059.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlForOP_070.resx">
+      <DependentUpon>UserControlForOP_070.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlForOP_30.resx">
+      <DependentUpon>UserControlForOP_30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlOP33_155_1.resx">
+      <DependentUpon>UserControlOP33_155_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPDSForm.resx">
+      <DependentUpon>WPDSForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{3252F0A5-EF06-45B0-95CB-4C41DFB0234A}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

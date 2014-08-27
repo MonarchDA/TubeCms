@@ -1100,7 +1100,7 @@
             this.chkOP031_1.Size = new System.Drawing.Size(656, 20);
             this.chkOP031_1.TabIndex = 119;
             this.chkOP031_1.Text = "Op 031-1  Second port weld OP used in if the offset distance or the port sizes be" +
-    "tween two ports are different";
+                "tween two ports are different";
             this.chkOP031_1.UseVisualStyleBackColor = true;
             // 
             // chkOP044_1
@@ -1113,7 +1113,7 @@
             this.chkOP044_1.Size = new System.Drawing.Size(680, 20);
             this.chkOP044_1.TabIndex = 122;
             this.chkOP044_1.Text = "OP 044-1 Second port weld OP used in only if two different port locators are requ" +
-    "ired or there is a rephasing port";
+                "ired or there is a rephasing port";
             this.chkOP044_1.UseVisualStyleBackColor = true;
             // 
             // chkOP062_1
@@ -1150,15 +1150,15 @@
             this.chkOP054.Size = new System.Drawing.Size(531, 20);
             this.chkOP054.TabIndex = 125;
             this.chkOP054.Text = "OP 054 Wash -Skived WR style  Not req\'d for WRP or for tubes 30” in length or gre" +
-    "ater";
+                "ater";
             this.chkOP054.UseVisualStyleBackColor = true;
             // 
             // CMSTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1080, 962);
+            this.BackColor = System.Drawing.Color.LightGray;
+            this.ClientSize = new System.Drawing.Size(1072, 962);
             this.Controls.Add(this.chkOP054);
             this.Controls.Add(this.chkOP070_3);
             this.Controls.Add(this.chkOP062_1);

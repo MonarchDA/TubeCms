@@ -437,6 +437,7 @@ F:\TubeCms\26-08-14\Recent Update by vamsi 3\CMSToolingApp\CMSTooling\obj\x86\De
 F:\TubeCms\26-08-14\Recent Update by vamsi 3\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.UserControlOP33_155_1.resources
 F:\TubeCms\26-08-14\Recent Update by vamsi 3\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.WPDSForm.resources
 F:\TubeCms\26-08-14\Recent Update by vamsi 3\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.exe
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.pdb
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\bin\Debug\CMSTooling.exe
@@ -459,3 +460,7 @@ F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.UserControlForO
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.UserControlOP33_155_1.resources
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.WPDSForm.resources
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Debug\CMSTooling.csproj.GenerateResource.Cache
+=======
+F:\git\tubecms\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.exe
+F:\git\tubecms\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.pdb
+>>>>>>> 663eb177a4c47bf35857d590838f800d5db98873

@@ -115,7 +115,8 @@
             // txtOperation
             // 
             this.txtOperation.Enabled = false;
-            this.txtOperation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOperation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOperation.ForeColor = System.Drawing.Color.White;
             this.txtOperation.Location = new System.Drawing.Point(124, 120);
             this.txtOperation.Name = "txtOperation";
             this.txtOperation.Size = new System.Drawing.Size(85, 21);
@@ -138,7 +139,7 @@
             this.groupBox1.Controls.Add(this.lblSOP);
             this.groupBox1.Controls.Add(this.txtSop);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(34, 486);
+            this.groupBox1.Location = new System.Drawing.Point(50, 435);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(289, 229);
             this.groupBox1.TabIndex = 24;
@@ -160,7 +161,8 @@
             // txtSmallHole
             // 
             this.txtSmallHole.Enabled = false;
-            this.txtSmallHole.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSmallHole.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSmallHole.ForeColor = System.Drawing.Color.White;
             this.txtSmallHole.Location = new System.Drawing.Point(127, 143);
             this.txtSmallHole.Name = "txtSmallHole";
             this.txtSmallHole.Size = new System.Drawing.Size(95, 21);
@@ -193,7 +195,8 @@
             // txtWieghtTool
             // 
             this.txtWieghtTool.Enabled = false;
-            this.txtWieghtTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWieghtTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWieghtTool.ForeColor = System.Drawing.Color.White;
             this.txtWieghtTool.Location = new System.Drawing.Point(126, 175);
             this.txtWieghtTool.Name = "txtWieghtTool";
             this.txtWieghtTool.Size = new System.Drawing.Size(96, 21);
@@ -215,7 +218,8 @@
             // txtProgram
             // 
             this.txtProgram.Enabled = false;
-            this.txtProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProgram.ForeColor = System.Drawing.Color.White;
             this.txtProgram.Location = new System.Drawing.Point(128, 77);
             this.txtProgram.Name = "txtProgram";
             this.txtProgram.Size = new System.Drawing.Size(94, 21);
@@ -236,7 +240,8 @@
             // txtWorkInstruction
             // 
             this.txtWorkInstruction.Enabled = false;
-            this.txtWorkInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWorkInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWorkInstruction.ForeColor = System.Drawing.Color.White;
             this.txtWorkInstruction.Location = new System.Drawing.Point(129, 50);
             this.txtWorkInstruction.Name = "txtWorkInstruction";
             this.txtWorkInstruction.Size = new System.Drawing.Size(94, 21);
@@ -257,7 +262,8 @@
             // txtTool
             // 
             this.txtTool.Enabled = false;
-            this.txtTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTool.ForeColor = System.Drawing.Color.White;
             this.txtTool.Location = new System.Drawing.Point(128, 114);
             this.txtTool.Name = "txtTool";
             this.txtTool.Size = new System.Drawing.Size(94, 21);
@@ -278,7 +284,8 @@
             // txtSop
             // 
             this.txtSop.Enabled = false;
-            this.txtSop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSop.ForeColor = System.Drawing.Color.White;
             this.txtSop.Location = new System.Drawing.Point(127, 97);
             this.txtSop.Name = "txtSop";
             this.txtSop.Size = new System.Drawing.Size(95, 21);
@@ -288,7 +295,8 @@
             // txtDepartment
             // 
             this.txtDepartment.Enabled = false;
-            this.txtDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDepartment.ForeColor = System.Drawing.Color.White;
             this.txtDepartment.Location = new System.Drawing.Point(123, 87);
             this.txtDepartment.Name = "txtDepartment";
             this.txtDepartment.Size = new System.Drawing.Size(85, 21);
@@ -298,7 +306,8 @@
             // txtWorkCenter
             // 
             this.txtWorkCenter.Enabled = false;
-            this.txtWorkCenter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWorkCenter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWorkCenter.ForeColor = System.Drawing.Color.White;
             this.txtWorkCenter.Location = new System.Drawing.Point(122, 54);
             this.txtWorkCenter.Name = "txtWorkCenter";
             this.txtWorkCenter.Size = new System.Drawing.Size(85, 21);
@@ -330,7 +339,8 @@
             // txtStandardRunTime
             // 
             this.txtStandardRunTime.Enabled = false;
-            this.txtStandardRunTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStandardRunTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStandardRunTime.ForeColor = System.Drawing.Color.White;
             this.txtStandardRunTime.Location = new System.Drawing.Point(127, 54);
             this.txtStandardRunTime.Name = "txtStandardRunTime";
             this.txtStandardRunTime.Size = new System.Drawing.Size(85, 21);
@@ -348,9 +358,9 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(344, 485);
+            this.groupBox2.Location = new System.Drawing.Point(360, 434);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(265, 173);
+            this.groupBox2.Size = new System.Drawing.Size(265, 194);
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Work Center";
@@ -359,7 +369,8 @@
             // txtSetUps
             // 
             this.txtSetUps.Enabled = false;
-            this.txtSetUps.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSetUps.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSetUps.ForeColor = System.Drawing.Color.White;
             this.txtSetUps.Location = new System.Drawing.Point(125, 153);
             this.txtSetUps.Name = "txtSetUps";
             this.txtSetUps.Size = new System.Drawing.Size(85, 21);
@@ -405,7 +416,7 @@
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.txtStandardRunTime);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(627, 486);
+            this.groupBox3.Location = new System.Drawing.Point(643, 435);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(220, 100);
             this.groupBox3.TabIndex = 26;
@@ -415,12 +426,15 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(341, 692);
+            this.btnSubmit.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Location = new System.Drawing.Point(513, 692);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(106, 23);
+            this.btnSubmit.Size = new System.Drawing.Size(151, 52);
             this.btnSubmit.TabIndex = 23;
             this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // label3
@@ -591,23 +605,29 @@
             // 
             // btnRestart
             // 
-            this.btnRestart.Location = new System.Drawing.Point(695, 692);
+            this.btnRestart.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnRestart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRestart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestart.Location = new System.Drawing.Point(867, 692);
             this.btnRestart.Name = "btnRestart";
-            this.btnRestart.Size = new System.Drawing.Size(82, 23);
+            this.btnRestart.Size = new System.Drawing.Size(127, 52);
             this.btnRestart.TabIndex = 31;
             this.btnRestart.Text = "Restart";
-            this.btnRestart.UseVisualStyleBackColor = true;
+            this.btnRestart.UseVisualStyleBackColor = false;
             this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
             // 
             // btnSaveToNotepad
             // 
+            this.btnSaveToNotepad.BackColor = System.Drawing.Color.DarkOrange;
             this.btnSaveToNotepad.Enabled = false;
-            this.btnSaveToNotepad.Location = new System.Drawing.Point(508, 692);
+            this.btnSaveToNotepad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaveToNotepad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveToNotepad.Location = new System.Drawing.Point(680, 692);
             this.btnSaveToNotepad.Name = "btnSaveToNotepad";
-            this.btnSaveToNotepad.Size = new System.Drawing.Size(116, 23);
+            this.btnSaveToNotepad.Size = new System.Drawing.Size(161, 52);
             this.btnSaveToNotepad.TabIndex = 33;
             this.btnSaveToNotepad.Text = "View Detailing Sheet";
-            this.btnSaveToNotepad.UseVisualStyleBackColor = true;
+            this.btnSaveToNotepad.UseVisualStyleBackColor = false;
             this.btnSaveToNotepad.Click += new System.EventHandler(this.btnSaveToNotepad_Click);
             // 
             // tableLayoutPanel1
@@ -1028,7 +1048,7 @@
             this.tableLayoutPanel2.Controls.Add(this.cmbTubeLength, 5, 0);
             this.tableLayoutPanel2.Controls.Add(this.cmbPortType, 7, 0);
             this.tableLayoutPanel2.Controls.Add(this.lblPortType, 6, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(44, 397);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(44, 355);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -1057,7 +1077,7 @@
             // 
             this.groupBox4.Controls.Add(this.DGV_OP_Sheet);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(138, 759);
+            this.groupBox4.Location = new System.Drawing.Point(328, 819);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(417, 40);
             this.groupBox4.TabIndex = 30;
@@ -1071,7 +1091,7 @@
             this.linkReferenceNotes.AutoSize = true;
             this.linkReferenceNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkReferenceNotes.LinkColor = System.Drawing.Color.Blue;
-            this.linkReferenceNotes.Location = new System.Drawing.Point(279, 747);
+            this.linkReferenceNotes.Location = new System.Drawing.Point(367, 727);
             this.linkReferenceNotes.Name = "linkReferenceNotes";
             this.linkReferenceNotes.Size = new System.Drawing.Size(111, 17);
             this.linkReferenceNotes.TabIndex = 66;
@@ -1081,13 +1101,15 @@
             // 
             // btnOpNo
             // 
-            this.btnOpNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOpNo.Location = new System.Drawing.Point(901, 367);
+            this.btnOpNo.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnOpNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOpNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpNo.Location = new System.Drawing.Point(881, 297);
             this.btnOpNo.Name = "btnOpNo";
-            this.btnOpNo.Size = new System.Drawing.Size(123, 23);
+            this.btnOpNo.Size = new System.Drawing.Size(140, 43);
             this.btnOpNo.TabIndex = 118;
             this.btnOpNo.Text = "Get Op No";
-            this.btnOpNo.UseVisualStyleBackColor = true;
+            this.btnOpNo.UseVisualStyleBackColor = false;
             this.btnOpNo.Click += new System.EventHandler(this.btnOpNo_Click);
             // 
             // chkOP031_1
@@ -1100,7 +1122,7 @@
             this.chkOP031_1.Size = new System.Drawing.Size(656, 20);
             this.chkOP031_1.TabIndex = 119;
             this.chkOP031_1.Text = "Op 031-1  Second port weld OP used in if the offset distance or the port sizes be" +
-                "tween two ports are different";
+    "tween two ports are different";
             this.chkOP031_1.UseVisualStyleBackColor = true;
             // 
             // chkOP044_1
@@ -1113,7 +1135,7 @@
             this.chkOP044_1.Size = new System.Drawing.Size(680, 20);
             this.chkOP044_1.TabIndex = 122;
             this.chkOP044_1.Text = "OP 044-1 Second port weld OP used in only if two different port locators are requ" +
-                "ired or there is a rephasing port";
+    "ired or there is a rephasing port";
             this.chkOP044_1.UseVisualStyleBackColor = true;
             // 
             // chkOP062_1
@@ -1150,7 +1172,7 @@
             this.chkOP054.Size = new System.Drawing.Size(531, 20);
             this.chkOP054.TabIndex = 125;
             this.chkOP054.Text = "OP 054 Wash -Skived WR style  Not req\'d for WRP or for tubes 30” in length or gre" +
-                "ater";
+    "ater";
             this.chkOP054.UseVisualStyleBackColor = true;
             // 
             // CMSTool
@@ -1158,7 +1180,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(1072, 962);
+            this.ClientSize = new System.Drawing.Size(1080, 962);
             this.Controls.Add(this.chkOP054);
             this.Controls.Add(this.chkOP070_3);
             this.Controls.Add(this.chkOP062_1);

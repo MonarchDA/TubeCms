@@ -55,6 +55,9 @@ namespace CMSTooling
       
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            changeTextBoxBackGround(groupBox1);
+            changeTextBoxBackGround(groupBox2);
+            changeTextBoxBackGround(groupBox3);
             btnSaveToNotepad.Enabled = true;
             ObjBEL.MainCAM = ObjUctrOP_30.txtboxCam.Text;
             ObjBEL.MainPortLocator = ObjUctrOP_30.txtboxPortLocator.Text;
@@ -2042,6 +2045,17 @@ namespace CMSTooling
 
         }
 
+        public void changeTextBoxBackGround(GroupBox objGroupBox)
+        {
+            foreach (Control item in objGroupBox.Controls)
+            {
+                if (item is TextBox)
+                {
+                    item.BackColor = Color.White;
+                }
+            }
+        }
+
         private void cmbWeldType_SelectedIndexChanged(object sender, EventArgs e)
         {
             ObjBEL1.WeldType = cmbWeldType.SelectedItem.ToString();
@@ -2259,7 +2273,7 @@ namespace CMSTooling
 
             if (ValidationMsg != null)
             {
-               // FindEmptyControls(tableLayoutPanel1);
+               FindEmptyControls(tableLayoutPanel1);
                 MessageBox.Show(ValidationMsg, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
             }
             else

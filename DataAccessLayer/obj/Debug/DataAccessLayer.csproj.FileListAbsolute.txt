@@ -246,8 +246,8 @@ F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\CMSTooling.exe
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\BusinessAccessLayer.dll
-F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\CMSTooling.pdb
-F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\BusinessAccessLayer.pdb
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\CMSTooling.pdb
+F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\BusinessAccessLayer.pdb

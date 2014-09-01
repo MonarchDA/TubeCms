@@ -251,3 +251,15 @@ F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\CMSTooling.pdb
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\bin\Debug\BusinessAccessLayer.pdb
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\CMSTooling.exe
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\IFLBaseDataLayer.dll
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\IFLCommonLayer.dll
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\BusinessAccessLayer.dll
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\CMSTooling.pdb
+F:\git\tubecms\TubeCms\DataAccessLayer\bin\Debug\BusinessAccessLayer.pdb
+F:\git\tubecms\TubeCms\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\git\tubecms\TubeCms\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\git\tubecms\TubeCms\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

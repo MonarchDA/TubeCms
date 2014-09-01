@@ -39,6 +39,7 @@
             this.txtWPDS = new System.Windows.Forms.TextBox();
             this.txtCollect = new System.Windows.Forms.TextBox();
             this.txtTool = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +54,6 @@
             this.groupBox1.Size = new System.Drawing.Size(290, 209);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Tooling";
             // 
             // tableLayoutPanel1
             // 
@@ -69,17 +69,18 @@
             this.tableLayoutPanel1.Controls.Add(this.txtWPDS, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.txtCollect, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.txtTool, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 22);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.923077F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.23077F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.23077F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.23077F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.23077F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.23077F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.923077F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.39289F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.39355F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.39355F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.39355F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.39355F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.39355F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.639355F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(284, 184);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -88,7 +89,7 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 23);
+            this.label1.Location = new System.Drawing.Point(3, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(136, 15);
             this.label1.TabIndex = 0;
@@ -99,7 +100,7 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 58);
+            this.label2.Location = new System.Drawing.Point(3, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(136, 15);
             this.label2.TabIndex = 0;
@@ -110,7 +111,7 @@
             this.lblCollect.AutoSize = true;
             this.lblCollect.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblCollect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCollect.Location = new System.Drawing.Point(3, 93);
+            this.lblCollect.Location = new System.Drawing.Point(3, 105);
             this.lblCollect.Name = "lblCollect";
             this.lblCollect.Size = new System.Drawing.Size(136, 15);
             this.lblCollect.TabIndex = 0;
@@ -121,7 +122,7 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 128);
+            this.label4.Location = new System.Drawing.Point(3, 135);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(136, 15);
             this.label4.TabIndex = 0;
@@ -131,8 +132,9 @@
             // 
             this.txtboxWorkInstuction.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtboxWorkInstuction.Enabled = false;
-            this.txtboxWorkInstuction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxWorkInstuction.Location = new System.Drawing.Point(145, 14);
+            this.txtboxWorkInstuction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxWorkInstuction.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtboxWorkInstuction.Location = new System.Drawing.Point(145, 36);
             this.txtboxWorkInstuction.Name = "txtboxWorkInstuction";
             this.txtboxWorkInstuction.Size = new System.Drawing.Size(100, 21);
             this.txtboxWorkInstuction.TabIndex = 1;
@@ -143,7 +145,7 @@
             this.tableLayoutPanel1.SetColumnSpan(this.label5, 2);
             this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 163);
+            this.label5.Location = new System.Drawing.Point(3, 165);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(278, 15);
             this.label5.TabIndex = 0;
@@ -154,8 +156,9 @@
             // 
             this.txtWPDS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtWPDS.Enabled = false;
-            this.txtWPDS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtWPDS.Location = new System.Drawing.Point(145, 49);
+            this.txtWPDS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWPDS.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtWPDS.Location = new System.Drawing.Point(145, 66);
             this.txtWPDS.Name = "txtWPDS";
             this.txtWPDS.Size = new System.Drawing.Size(100, 21);
             this.txtWPDS.TabIndex = 1;
@@ -164,8 +167,9 @@
             // 
             this.txtCollect.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtCollect.Enabled = false;
-            this.txtCollect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCollect.Location = new System.Drawing.Point(145, 84);
+            this.txtCollect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCollect.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtCollect.Location = new System.Drawing.Point(145, 96);
             this.txtCollect.Name = "txtCollect";
             this.txtCollect.Size = new System.Drawing.Size(100, 21);
             this.txtCollect.TabIndex = 1;
@@ -174,12 +178,28 @@
             // 
             this.txtTool.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtTool.Enabled = false;
-            this.txtTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTool.Location = new System.Drawing.Point(145, 119);
+            this.txtTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTool.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtTool.Location = new System.Drawing.Point(145, 126);
             this.txtTool.Name = "txtTool";
             this.txtTool.Size = new System.Drawing.Size(100, 21);
             this.txtTool.TabIndex = 1;
             this.txtTool.Text = "Caution Weight ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.label3, 2);
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(3, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(278, 30);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Tooling";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // UserControlForOP_059
             // 
@@ -208,5 +228,6 @@
         public System.Windows.Forms.TextBox txtCollect;
         public System.Windows.Forms.TextBox txtTool;
         public System.Windows.Forms.Label lblCollect;
+        private System.Windows.Forms.Label label3;
     }
 }

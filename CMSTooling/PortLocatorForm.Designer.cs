@@ -141,19 +141,21 @@
             // btnGetPort
             // 
             this.btnGetPort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnGetPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.btnGetPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGetPort.ForeColor = System.Drawing.Color.White;
             this.btnGetPort.Location = new System.Drawing.Point(163, 138);
             this.btnGetPort.Name = "btnGetPort";
             this.btnGetPort.Size = new System.Drawing.Size(75, 20);
             this.btnGetPort.TabIndex = 4;
             this.btnGetPort.Text = "GetPort";
-            this.btnGetPort.UseVisualStyleBackColor = true;
+            this.btnGetPort.UseVisualStyleBackColor = false;
             this.btnGetPort.Click += new System.EventHandler(this.btnGetPort_Click);
             // 
             // PortLocatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(321, 182);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;

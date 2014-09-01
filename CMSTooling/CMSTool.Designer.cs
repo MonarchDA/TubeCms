@@ -30,6 +30,8 @@
         {
             this.txtOperation = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
             this.lblSmallHole = new System.Windows.Forms.Label();
             this.txtSmallHole = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -49,11 +51,15 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtStandardRunTime = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label16 = new System.Windows.Forms.Label();
             this.txtSetUps = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbTubeLength = new System.Windows.Forms.ComboBox();
@@ -90,8 +96,10 @@
             this.lblPortOrientation = new System.Windows.Forms.Label();
             this.cmbRephasingAt = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label13 = new System.Windows.Forms.Label();
             this.DGV_OP_Sheet = new System.Windows.Forms.DataGridView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.linkReferenceNotes = new System.Windows.Forms.LinkLabel();
@@ -102,14 +110,20 @@
             this.chkOP070_3 = new System.Windows.Forms.CheckBox();
             this.chkOP054 = new System.Windows.Forms.CheckBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_OP_Sheet)).BeginInit();
             this.groupBox4.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtOperation
@@ -125,6 +139,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Controls.Add(this.lblSmallHole);
             this.groupBox1.Controls.Add(this.txtSmallHole);
             this.groupBox1.Controls.Add(this.label9);
@@ -139,13 +154,33 @@
             this.groupBox1.Controls.Add(this.lblSOP);
             this.groupBox1.Controls.Add(this.txtSop);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(50, 435);
+            this.groupBox1.Location = new System.Drawing.Point(45, 513);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(289, 229);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "TOOLING";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Location = new System.Drawing.Point(2, 18);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(283, 26);
+            this.panel1.TabIndex = 33;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(111, 4);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(67, 20);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Tooling";
             // 
             // lblSmallHole
             // 
@@ -349,6 +384,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.panel2);
             this.groupBox2.Controls.Add(this.txtSetUps);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.txtOperation);
@@ -358,13 +394,33 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(360, 434);
+            this.groupBox2.Location = new System.Drawing.Point(366, 516);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(265, 194);
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Work Center";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.panel2.Controls.Add(this.label16);
+            this.panel2.Location = new System.Drawing.Point(2, 15);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(261, 26);
+            this.panel2.TabIndex = 21;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(78, 2);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(109, 20);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "Work Center";
             // 
             // txtSetUps
             // 
@@ -413,25 +469,47 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.panel3);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.txtStandardRunTime);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(643, 435);
+            this.groupBox3.Location = new System.Drawing.Point(657, 518);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(220, 100);
             this.groupBox3.TabIndex = 26;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Standard Run Time";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.panel3.Controls.Add(this.label17);
+            this.panel3.Location = new System.Drawing.Point(1, 17);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(218, 26);
+            this.panel3.TabIndex = 17;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(29, 4);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(164, 20);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Standard Run Time";
             // 
             // btnSubmit
             // 
-            this.btnSubmit.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
             this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(513, 692);
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.ForeColor = System.Drawing.Color.White;
+            this.btnSubmit.Location = new System.Drawing.Point(513, 720);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(151, 52);
+            this.btnSubmit.Size = new System.Drawing.Size(151, 34);
             this.btnSubmit.TabIndex = 23;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = false;
@@ -441,7 +519,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label3.Location = new System.Drawing.Point(491, 18);
+            this.label3.Location = new System.Drawing.Point(491, 39);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 13);
             this.label3.TabIndex = 21;
@@ -517,7 +595,7 @@
             "59",
             "60",
             ""});
-            this.cmbTubeLength.Location = new System.Drawing.Point(613, 7);
+            this.cmbTubeLength.Location = new System.Drawing.Point(613, 29);
             this.cmbTubeLength.Name = "cmbTubeLength";
             this.cmbTubeLength.Size = new System.Drawing.Size(116, 21);
             this.cmbTubeLength.TabIndex = 22;
@@ -530,7 +608,7 @@
             this.cmbBoreDiameter.Enabled = false;
             this.cmbBoreDiameter.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmbBoreDiameter.FormattingEnabled = true;
-            this.cmbBoreDiameter.Location = new System.Drawing.Point(369, 7);
+            this.cmbBoreDiameter.Location = new System.Drawing.Point(369, 29);
             this.cmbBoreDiameter.Name = "cmbBoreDiameter";
             this.cmbBoreDiameter.Size = new System.Drawing.Size(116, 21);
             this.cmbBoreDiameter.TabIndex = 20;
@@ -540,7 +618,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.Location = new System.Drawing.Point(247, 18);
+            this.label2.Location = new System.Drawing.Point(247, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 13);
             this.label2.TabIndex = 19;
@@ -552,7 +630,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label1.Location = new System.Drawing.Point(3, 18);
+            this.label1.Location = new System.Drawing.Point(3, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 13);
             this.label1.TabIndex = 18;
@@ -567,7 +645,7 @@
             this.cmbOpNo.Enabled = false;
             this.cmbOpNo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmbOpNo.FormattingEnabled = true;
-            this.cmbOpNo.Location = new System.Drawing.Point(125, 7);
+            this.cmbOpNo.Location = new System.Drawing.Point(125, 29);
             this.cmbOpNo.Name = "cmbOpNo";
             this.cmbOpNo.Size = new System.Drawing.Size(116, 21);
             this.cmbOpNo.TabIndex = 17;
@@ -583,7 +661,7 @@
             this.cmbPortType.Items.AddRange(new object[] {
             "One Port",
             "Two Port"});
-            this.cmbPortType.Location = new System.Drawing.Point(857, 7);
+            this.cmbPortType.Location = new System.Drawing.Point(857, 29);
             this.cmbPortType.Name = "cmbPortType";
             this.cmbPortType.Size = new System.Drawing.Size(120, 21);
             this.cmbPortType.TabIndex = 29;
@@ -594,7 +672,7 @@
             // 
             this.lblPortType.AutoSize = true;
             this.lblPortType.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lblPortType.Location = new System.Drawing.Point(735, 18);
+            this.lblPortType.Location = new System.Drawing.Point(735, 39);
             this.lblPortType.Name = "lblPortType";
             this.lblPortType.Size = new System.Drawing.Size(116, 13);
             this.lblPortType.TabIndex = 28;
@@ -605,12 +683,13 @@
             // 
             // btnRestart
             // 
-            this.btnRestart.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnRestart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
             this.btnRestart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRestart.Location = new System.Drawing.Point(867, 692);
+            this.btnRestart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestart.ForeColor = System.Drawing.Color.White;
+            this.btnRestart.Location = new System.Drawing.Point(876, 716);
             this.btnRestart.Name = "btnRestart";
-            this.btnRestart.Size = new System.Drawing.Size(127, 52);
+            this.btnRestart.Size = new System.Drawing.Size(127, 38);
             this.btnRestart.TabIndex = 31;
             this.btnRestart.Text = "Restart";
             this.btnRestart.UseVisualStyleBackColor = false;
@@ -618,13 +697,14 @@
             // 
             // btnSaveToNotepad
             // 
-            this.btnSaveToNotepad.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnSaveToNotepad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
             this.btnSaveToNotepad.Enabled = false;
             this.btnSaveToNotepad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveToNotepad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveToNotepad.Location = new System.Drawing.Point(680, 692);
+            this.btnSaveToNotepad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveToNotepad.ForeColor = System.Drawing.Color.White;
+            this.btnSaveToNotepad.Location = new System.Drawing.Point(680, 716);
             this.btnSaveToNotepad.Name = "btnSaveToNotepad";
-            this.btnSaveToNotepad.Size = new System.Drawing.Size(161, 52);
+            this.btnSaveToNotepad.Size = new System.Drawing.Size(187, 38);
             this.btnSaveToNotepad.TabIndex = 33;
             this.btnSaveToNotepad.Text = "View Detailing Sheet";
             this.btnSaveToNotepad.UseVisualStyleBackColor = false;
@@ -639,30 +719,31 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.Controls.Add(this.lblDesign, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.cmbDesign, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lblCylinderHead, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.cmbCylinderHead, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lblTubeMaterial, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.cmbTubeMaterial, 5, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lblBaseEnd, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.cmbBaseEndPiece, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lblRephasing, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.cmbRephasing, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lblWeldOp10, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.cmbWeldType, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.lblFlowPath, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.txtFlowPath, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.cmbPortOrientation, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.lblDoublePorts, 4, 3);
-            this.tableLayoutPanel1.Controls.Add(this.cmbPortAngle, 5, 3);
-            this.tableLayoutPanel1.Controls.Add(this.lblOrificeSize, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.cmbOrificeSize, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.lblFabrication, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.cmbFabricationDrillingHole, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.lblPortOrientation, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.cmbRephasingAt, 5, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.lblDesign, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.cmbDesign, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblCylinderHead, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.cmbCylinderHead, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblTubeMaterial, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.cmbTubeMaterial, 5, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblBaseEnd, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.cmbBaseEndPiece, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.lblRephasing, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.cmbRephasing, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.lblWeldOp10, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.cmbWeldType, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.lblFlowPath, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtFlowPath, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.cmbPortOrientation, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.lblDoublePorts, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.cmbPortAngle, 5, 4);
+            this.tableLayoutPanel1.Controls.Add(this.lblOrificeSize, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.cmbOrificeSize, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.lblFabrication, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.cmbFabricationDrillingHole, 3, 5);
+            this.tableLayoutPanel1.Controls.Add(this.lblPortOrientation, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.cmbRephasingAt, 5, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 4, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label6, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(15, 19);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
@@ -680,7 +761,7 @@
             this.lblDesign.AutoSize = true;
             this.lblDesign.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblDesign.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesign.Location = new System.Drawing.Point(3, 13);
+            this.lblDesign.Location = new System.Drawing.Point(3, 41);
             this.lblDesign.Name = "lblDesign";
             this.lblDesign.Size = new System.Drawing.Size(151, 15);
             this.lblDesign.TabIndex = 89;
@@ -697,7 +778,7 @@
             this.cmbDesign.Items.AddRange(new object[] {
             "Conventional",
             "WR"});
-            this.cmbDesign.Location = new System.Drawing.Point(160, 3);
+            this.cmbDesign.Location = new System.Drawing.Point(160, 31);
             this.cmbDesign.Name = "cmbDesign";
             this.cmbDesign.Size = new System.Drawing.Size(151, 23);
             this.cmbDesign.TabIndex = 90;
@@ -708,7 +789,7 @@
             this.lblCylinderHead.AutoSize = true;
             this.lblCylinderHead.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblCylinderHead.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCylinderHead.Location = new System.Drawing.Point(317, 13);
+            this.lblCylinderHead.Location = new System.Drawing.Point(317, 41);
             this.lblCylinderHead.Name = "lblCylinderHead";
             this.lblCylinderHead.Size = new System.Drawing.Size(151, 15);
             this.lblCylinderHead.TabIndex = 91;
@@ -723,7 +804,7 @@
             this.cmbCylinderHead.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmbCylinderHead.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCylinderHead.FormattingEnabled = true;
-            this.cmbCylinderHead.Location = new System.Drawing.Point(474, 3);
+            this.cmbCylinderHead.Location = new System.Drawing.Point(474, 31);
             this.cmbCylinderHead.Name = "cmbCylinderHead";
             this.cmbCylinderHead.Size = new System.Drawing.Size(151, 23);
             this.cmbCylinderHead.TabIndex = 92;
@@ -734,7 +815,7 @@
             this.lblTubeMaterial.AutoSize = true;
             this.lblTubeMaterial.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblTubeMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTubeMaterial.Location = new System.Drawing.Point(631, 13);
+            this.lblTubeMaterial.Location = new System.Drawing.Point(631, 41);
             this.lblTubeMaterial.Name = "lblTubeMaterial";
             this.lblTubeMaterial.Size = new System.Drawing.Size(151, 15);
             this.lblTubeMaterial.TabIndex = 93;
@@ -752,7 +833,7 @@
             this.cmbTubeMaterial.Items.AddRange(new object[] {
             "Skived",
             "Honed"});
-            this.cmbTubeMaterial.Location = new System.Drawing.Point(788, 3);
+            this.cmbTubeMaterial.Location = new System.Drawing.Point(788, 31);
             this.cmbTubeMaterial.Name = "cmbTubeMaterial";
             this.cmbTubeMaterial.Size = new System.Drawing.Size(153, 23);
             this.cmbTubeMaterial.TabIndex = 94;
@@ -763,7 +844,7 @@
             this.lblBaseEnd.AutoSize = true;
             this.lblBaseEnd.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblBaseEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBaseEnd.Location = new System.Drawing.Point(3, 41);
+            this.lblBaseEnd.Location = new System.Drawing.Point(3, 69);
             this.lblBaseEnd.Name = "lblBaseEnd";
             this.lblBaseEnd.Size = new System.Drawing.Size(151, 15);
             this.lblBaseEnd.TabIndex = 95;
@@ -781,7 +862,7 @@
             this.cmbBaseEndPiece.Items.AddRange(new object[] {
             "1",
             "2"});
-            this.cmbBaseEndPiece.Location = new System.Drawing.Point(160, 31);
+            this.cmbBaseEndPiece.Location = new System.Drawing.Point(160, 59);
             this.cmbBaseEndPiece.Name = "cmbBaseEndPiece";
             this.cmbBaseEndPiece.Size = new System.Drawing.Size(151, 23);
             this.cmbBaseEndPiece.TabIndex = 96;
@@ -792,7 +873,7 @@
             this.lblRephasing.AutoSize = true;
             this.lblRephasing.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblRephasing.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRephasing.Location = new System.Drawing.Point(317, 41);
+            this.lblRephasing.Location = new System.Drawing.Point(317, 69);
             this.lblRephasing.Name = "lblRephasing";
             this.lblRephasing.Size = new System.Drawing.Size(151, 15);
             this.lblRephasing.TabIndex = 99;
@@ -807,7 +888,7 @@
             this.cmbRephasing.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmbRephasing.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbRephasing.FormattingEnabled = true;
-            this.cmbRephasing.Location = new System.Drawing.Point(474, 31);
+            this.cmbRephasing.Location = new System.Drawing.Point(474, 59);
             this.cmbRephasing.Name = "cmbRephasing";
             this.cmbRephasing.Size = new System.Drawing.Size(151, 23);
             this.cmbRephasing.TabIndex = 100;
@@ -818,7 +899,7 @@
             this.lblWeldOp10.AutoSize = true;
             this.lblWeldOp10.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblWeldOp10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWeldOp10.Location = new System.Drawing.Point(3, 97);
+            this.lblWeldOp10.Location = new System.Drawing.Point(3, 125);
             this.lblWeldOp10.Name = "lblWeldOp10";
             this.lblWeldOp10.Size = new System.Drawing.Size(151, 15);
             this.lblWeldOp10.TabIndex = 105;
@@ -836,7 +917,7 @@
             this.cmbWeldType.Items.AddRange(new object[] {
             "Fillet Weld",
             "Groove Weld"});
-            this.cmbWeldType.Location = new System.Drawing.Point(160, 87);
+            this.cmbWeldType.Location = new System.Drawing.Point(160, 115);
             this.cmbWeldType.Name = "cmbWeldType";
             this.cmbWeldType.Size = new System.Drawing.Size(151, 23);
             this.cmbWeldType.TabIndex = 106;
@@ -847,7 +928,7 @@
             this.lblFlowPath.AutoSize = true;
             this.lblFlowPath.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblFlowPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFlowPath.Location = new System.Drawing.Point(3, 64);
+            this.lblFlowPath.Location = new System.Drawing.Point(3, 92);
             this.lblFlowPath.Name = "lblFlowPath";
             this.lblFlowPath.Size = new System.Drawing.Size(151, 20);
             this.lblFlowPath.TabIndex = 103;
@@ -857,7 +938,7 @@
             // txtFlowPath
             // 
             this.txtFlowPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFlowPath.Location = new System.Drawing.Point(160, 59);
+            this.txtFlowPath.Location = new System.Drawing.Point(160, 87);
             this.txtFlowPath.Name = "txtFlowPath";
             this.txtFlowPath.ReadOnly = true;
             this.txtFlowPath.Size = new System.Drawing.Size(151, 26);
@@ -875,7 +956,7 @@
             this.cmbPortOrientation.Items.AddRange(new object[] {
             "St Ports",
             "90 Ports"});
-            this.cmbPortOrientation.Location = new System.Drawing.Point(474, 87);
+            this.cmbPortOrientation.Location = new System.Drawing.Point(474, 115);
             this.cmbPortOrientation.Name = "cmbPortOrientation";
             this.cmbPortOrientation.Size = new System.Drawing.Size(151, 23);
             this.cmbPortOrientation.TabIndex = 110;
@@ -886,7 +967,7 @@
             this.lblDoublePorts.AutoSize = true;
             this.lblDoublePorts.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblDoublePorts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDoublePorts.Location = new System.Drawing.Point(631, 97);
+            this.lblDoublePorts.Location = new System.Drawing.Point(631, 125);
             this.lblDoublePorts.Name = "lblDoublePorts";
             this.lblDoublePorts.Size = new System.Drawing.Size(151, 15);
             this.lblDoublePorts.TabIndex = 111;
@@ -904,7 +985,7 @@
             this.cmbPortAngle.Items.AddRange(new object[] {
             "St Ports or one 90 Port",
             "two 90 Ports"});
-            this.cmbPortAngle.Location = new System.Drawing.Point(788, 87);
+            this.cmbPortAngle.Location = new System.Drawing.Point(788, 115);
             this.cmbPortAngle.Name = "cmbPortAngle";
             this.cmbPortAngle.Size = new System.Drawing.Size(153, 23);
             this.cmbPortAngle.TabIndex = 112;
@@ -915,7 +996,7 @@
             this.lblOrificeSize.AutoSize = true;
             this.lblOrificeSize.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblOrificeSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrificeSize.Location = new System.Drawing.Point(3, 125);
+            this.lblOrificeSize.Location = new System.Drawing.Point(3, 156);
             this.lblOrificeSize.Name = "lblOrificeSize";
             this.lblOrificeSize.Size = new System.Drawing.Size(151, 15);
             this.lblOrificeSize.TabIndex = 113;
@@ -936,7 +1017,7 @@
             "both orifices 0.125 or above",
             "both orifices below 0.125",
             "one orifice below 0.125 and one 0.125 or above"});
-            this.cmbOrificeSize.Location = new System.Drawing.Point(160, 115);
+            this.cmbOrificeSize.Location = new System.Drawing.Point(160, 146);
             this.cmbOrificeSize.Name = "cmbOrificeSize";
             this.cmbOrificeSize.Size = new System.Drawing.Size(151, 22);
             this.cmbOrificeSize.TabIndex = 114;
@@ -949,7 +1030,7 @@
             this.lblFabrication.AutoSize = true;
             this.lblFabrication.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblFabrication.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFabrication.Location = new System.Drawing.Point(317, 125);
+            this.lblFabrication.Location = new System.Drawing.Point(317, 156);
             this.lblFabrication.Name = "lblFabrication";
             this.lblFabrication.Size = new System.Drawing.Size(151, 15);
             this.lblFabrication.TabIndex = 115;
@@ -970,7 +1051,7 @@
             this.cmbFabricationDrillingHole.Items.AddRange(new object[] {
             "SL || DL || UL W/O pre drilled hole",
             "Any Other Drilling OP "});
-            this.cmbFabricationDrillingHole.Location = new System.Drawing.Point(474, 115);
+            this.cmbFabricationDrillingHole.Location = new System.Drawing.Point(474, 146);
             this.cmbFabricationDrillingHole.Name = "cmbFabricationDrillingHole";
             this.cmbFabricationDrillingHole.Size = new System.Drawing.Size(151, 22);
             this.cmbFabricationDrillingHole.TabIndex = 116;
@@ -983,7 +1064,7 @@
             this.lblPortOrientation.AutoSize = true;
             this.lblPortOrientation.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblPortOrientation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPortOrientation.Location = new System.Drawing.Point(317, 97);
+            this.lblPortOrientation.Location = new System.Drawing.Point(317, 125);
             this.lblPortOrientation.Name = "lblPortOrientation";
             this.lblPortOrientation.Size = new System.Drawing.Size(151, 15);
             this.lblPortOrientation.TabIndex = 118;
@@ -1000,7 +1081,7 @@
             this.cmbRephasingAt.Items.AddRange(new object[] {
             "One End",
             "Both Ends"});
-            this.cmbRephasingAt.Location = new System.Drawing.Point(788, 115);
+            this.cmbRephasingAt.Location = new System.Drawing.Point(788, 143);
             this.cmbRephasingAt.Name = "cmbRephasingAt";
             this.cmbRephasingAt.Size = new System.Drawing.Size(153, 23);
             this.cmbRephasingAt.TabIndex = 120;
@@ -1011,12 +1092,27 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(631, 125);
+            this.label4.Location = new System.Drawing.Point(631, 156);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(151, 15);
             this.label4.TabIndex = 121;
             this.label4.Text = "Rephasing At:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.label6, 6);
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(3, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(938, 28);
+            this.label6.TabIndex = 122;
+            this.label6.Text = "Primary Inputs";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox5
             // 
@@ -1027,7 +1123,6 @@
             this.groupBox5.Size = new System.Drawing.Size(980, 196);
             this.groupBox5.TabIndex = 64;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Primary Inputs";
             // 
             // tableLayoutPanel2
             // 
@@ -1040,22 +1135,39 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.cmbOpNo, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label2, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.cmbBoreDiameter, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label3, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.cmbTubeLength, 5, 0);
-            this.tableLayoutPanel2.Controls.Add(this.cmbPortType, 7, 0);
-            this.tableLayoutPanel2.Controls.Add(this.lblPortType, 6, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(44, 355);
+            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.cmbOpNo, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label2, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.cmbBoreDiameter, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label3, 4, 1);
+            this.tableLayoutPanel2.Controls.Add(this.cmbTubeLength, 5, 1);
+            this.tableLayoutPanel2.Controls.Add(this.cmbPortType, 7, 1);
+            this.tableLayoutPanel2.Controls.Add(this.lblPortType, 6, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label13, 0, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(44, 429);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(980, 62);
+            this.tableLayoutPanel2.RowCount = 3;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(980, 80);
             this.tableLayoutPanel2.TabIndex = 65;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.tableLayoutPanel2.SetColumnSpan(this.label13, 8);
+            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(3, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(974, 26);
+            this.label13.TabIndex = 30;
+            this.label13.Text = "Detailed Inputs";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // DGV_OP_Sheet
             // 
@@ -1077,7 +1189,7 @@
             // 
             this.groupBox4.Controls.Add(this.DGV_OP_Sheet);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(328, 819);
+            this.groupBox4.Location = new System.Drawing.Point(328, 771);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(417, 40);
             this.groupBox4.TabIndex = 30;
@@ -1101,12 +1213,13 @@
             // 
             // btnOpNo
             // 
-            this.btnOpNo.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnOpNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
             this.btnOpNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOpNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOpNo.Location = new System.Drawing.Point(881, 297);
+            this.btnOpNo.ForeColor = System.Drawing.Color.White;
+            this.btnOpNo.Location = new System.Drawing.Point(884, 393);
             this.btnOpNo.Name = "btnOpNo";
-            this.btnOpNo.Size = new System.Drawing.Size(140, 43);
+            this.btnOpNo.Size = new System.Drawing.Size(140, 30);
             this.btnOpNo.TabIndex = 118;
             this.btnOpNo.Text = "Get Op No";
             this.btnOpNo.UseVisualStyleBackColor = false;
@@ -1117,12 +1230,12 @@
             this.chkOP031_1.AutoSize = true;
             this.chkOP031_1.Enabled = false;
             this.chkOP031_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkOP031_1.Location = new System.Drawing.Point(65, 230);
+            this.chkOP031_1.Location = new System.Drawing.Point(3, 30);
             this.chkOP031_1.Name = "chkOP031_1";
             this.chkOP031_1.Size = new System.Drawing.Size(656, 20);
             this.chkOP031_1.TabIndex = 119;
             this.chkOP031_1.Text = "Op 031-1  Second port weld OP used in if the offset distance or the port sizes be" +
-    "tween two ports are different";
+                "tween two ports are different";
             this.chkOP031_1.UseVisualStyleBackColor = true;
             // 
             // chkOP044_1
@@ -1130,12 +1243,12 @@
             this.chkOP044_1.AutoSize = true;
             this.chkOP044_1.Enabled = false;
             this.chkOP044_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkOP044_1.Location = new System.Drawing.Point(65, 253);
+            this.chkOP044_1.Location = new System.Drawing.Point(3, 57);
             this.chkOP044_1.Name = "chkOP044_1";
             this.chkOP044_1.Size = new System.Drawing.Size(680, 20);
             this.chkOP044_1.TabIndex = 122;
             this.chkOP044_1.Text = "OP 044-1 Second port weld OP used in only if two different port locators are requ" +
-    "ired or there is a rephasing port";
+                "ired or there is a rephasing port";
             this.chkOP044_1.UseVisualStyleBackColor = true;
             // 
             // chkOP062_1
@@ -1143,7 +1256,7 @@
             this.chkOP062_1.AutoSize = true;
             this.chkOP062_1.Enabled = false;
             this.chkOP062_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkOP062_1.Location = new System.Drawing.Point(65, 297);
+            this.chkOP062_1.Location = new System.Drawing.Point(3, 111);
             this.chkOP062_1.Name = "chkOP062_1";
             this.chkOP062_1.Size = new System.Drawing.Size(383, 20);
             this.chkOP062_1.TabIndex = 123;
@@ -1155,7 +1268,7 @@
             this.chkOP070_3.AutoSize = true;
             this.chkOP070_3.Enabled = false;
             this.chkOP070_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkOP070_3.Location = new System.Drawing.Point(65, 320);
+            this.chkOP070_3.Location = new System.Drawing.Point(3, 138);
             this.chkOP070_3.Name = "chkOP070_3";
             this.chkOP070_3.Size = new System.Drawing.Size(341, 20);
             this.chkOP070_3.TabIndex = 124;
@@ -1167,25 +1280,58 @@
             this.chkOP054.AutoSize = true;
             this.chkOP054.Enabled = false;
             this.chkOP054.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkOP054.Location = new System.Drawing.Point(64, 275);
+            this.chkOP054.Location = new System.Drawing.Point(3, 84);
             this.chkOP054.Name = "chkOP054";
             this.chkOP054.Size = new System.Drawing.Size(531, 20);
             this.chkOP054.TabIndex = 125;
             this.chkOP054.Text = "OP 054 Wash -Skived WR style  Not req\'d for WRP or for tubes 30” in length or gre" +
-    "ater";
+                "ater";
             this.chkOP054.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Controls.Add(this.chkOP031_1, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.chkOP070_3, 0, 5);
+            this.tableLayoutPanel3.Controls.Add(this.chkOP044_1, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.chkOP062_1, 0, 4);
+            this.tableLayoutPanel3.Controls.Add(this.chkOP054, 0, 3);
+            this.tableLayoutPanel3.Controls.Add(this.label7, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(59, 216);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 6;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(944, 166);
+            this.tableLayoutPanel3.TabIndex = 126;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(3, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(938, 27);
+            this.label7.TabIndex = 126;
+            this.label7.Text = "Special OP\'s";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CMSTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(1080, 962);
-            this.Controls.Add(this.chkOP054);
-            this.Controls.Add(this.chkOP070_3);
-            this.Controls.Add(this.chkOP062_1);
-            this.Controls.Add(this.chkOP044_1);
-            this.Controls.Add(this.chkOP031_1);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(1072, 826);
+            this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.btnOpNo);
             this.Controls.Add(this.linkReferenceNotes);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -1206,10 +1352,16 @@
             this.Load += new System.EventHandler(this.CMSTool_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.groupBox5.ResumeLayout(false);
@@ -1217,6 +1369,8 @@
             this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_OP_Sheet)).EndInit();
             this.groupBox4.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1299,6 +1453,16 @@
         private System.Windows.Forms.CheckBox chkOP070_3;
         private System.Windows.Forms.CheckBox chkOP054;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label17;
     }
 }
 

@@ -53,6 +53,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -287,12 +288,15 @@
             // btnGetWPDS
             // 
             this.btnGetWPDS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnGetWPDS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.btnGetWPDS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGetWPDS.ForeColor = System.Drawing.Color.White;
             this.btnGetWPDS.Location = new System.Drawing.Point(174, 423);
             this.btnGetWPDS.Name = "btnGetWPDS";
             this.btnGetWPDS.Size = new System.Drawing.Size(121, 23);
             this.btnGetWPDS.TabIndex = 3;
             this.btnGetWPDS.Text = "Get WPDS";
-            this.btnGetWPDS.UseVisualStyleBackColor = true;
+            this.btnGetWPDS.UseVisualStyleBackColor = false;
             this.btnGetWPDS.Click += new System.EventHandler(this.btnGetWPDS_Click);
             // 
             // WPDSForm

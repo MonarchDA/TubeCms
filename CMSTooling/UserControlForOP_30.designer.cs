@@ -41,6 +41,7 @@
             this.txtboxCam = new System.Windows.Forms.TextBox();
             this.txtboxPortLocator = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -54,7 +55,6 @@
             this.groupBox1.Size = new System.Drawing.Size(290, 252);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Tooling";
             // 
             // tableLayoutPanel1
             // 
@@ -72,18 +72,19 @@
             this.tableLayoutPanel1.Controls.Add(this.txtboxCam, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.txtboxPortLocator, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label6, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label7, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 22);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.899214F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.70137F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.70137F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.70137F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.70137F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.69804F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.69804F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.899214F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.51093F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.51219F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.51219F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.51219F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.51219F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.50913F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.50913F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.422032F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(284, 224);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -92,7 +93,7 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 30);
+            this.label1.Location = new System.Drawing.Point(3, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(136, 15);
             this.label1.TabIndex = 0;
@@ -104,7 +105,7 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 62);
+            this.label2.Location = new System.Drawing.Point(3, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(136, 15);
             this.label2.TabIndex = 0;
@@ -116,7 +117,7 @@
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 94);
+            this.label3.Location = new System.Drawing.Point(3, 105);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(136, 15);
             this.label3.TabIndex = 0;
@@ -128,7 +129,7 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 126);
+            this.label4.Location = new System.Drawing.Point(3, 135);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(136, 15);
             this.label4.TabIndex = 0;
@@ -140,7 +141,7 @@
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 158);
+            this.label5.Location = new System.Drawing.Point(3, 165);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(136, 15);
             this.label5.TabIndex = 1;
@@ -151,8 +152,8 @@
             // 
             this.txtboxTools.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtboxTools.Enabled = false;
-            this.txtboxTools.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxTools.Location = new System.Drawing.Point(145, 149);
+            this.txtboxTools.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxTools.Location = new System.Drawing.Point(145, 156);
             this.txtboxTools.Name = "txtboxTools";
             this.txtboxTools.Size = new System.Drawing.Size(100, 21);
             this.txtboxTools.TabIndex = 3;
@@ -161,8 +162,8 @@
             // txtboxWpds
             // 
             this.txtboxWpds.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.txtboxWpds.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxWpds.Location = new System.Drawing.Point(145, 117);
+            this.txtboxWpds.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxWpds.Location = new System.Drawing.Point(145, 126);
             this.txtboxWpds.Name = "txtboxWpds";
             this.txtboxWpds.Size = new System.Drawing.Size(100, 21);
             this.txtboxWpds.TabIndex = 4;
@@ -172,8 +173,9 @@
             // 
             this.txtboxWorkInstuction.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtboxWorkInstuction.Enabled = false;
-            this.txtboxWorkInstuction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxWorkInstuction.Location = new System.Drawing.Point(145, 21);
+            this.txtboxWorkInstuction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxWorkInstuction.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtboxWorkInstuction.Location = new System.Drawing.Point(145, 36);
             this.txtboxWorkInstuction.Name = "txtboxWorkInstuction";
             this.txtboxWorkInstuction.Size = new System.Drawing.Size(100, 21);
             this.txtboxWorkInstuction.TabIndex = 5;
@@ -181,8 +183,8 @@
             // txtboxCam
             // 
             this.txtboxCam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.txtboxCam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxCam.Location = new System.Drawing.Point(145, 53);
+            this.txtboxCam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxCam.Location = new System.Drawing.Point(145, 66);
             this.txtboxCam.Name = "txtboxCam";
             this.txtboxCam.Size = new System.Drawing.Size(100, 21);
             this.txtboxCam.TabIndex = 5;
@@ -191,8 +193,8 @@
             // txtboxPortLocator
             // 
             this.txtboxPortLocator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.txtboxPortLocator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxPortLocator.Location = new System.Drawing.Point(145, 85);
+            this.txtboxPortLocator.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxPortLocator.Location = new System.Drawing.Point(145, 96);
             this.txtboxPortLocator.Name = "txtboxPortLocator";
             this.txtboxPortLocator.Size = new System.Drawing.Size(100, 21);
             this.txtboxPortLocator.TabIndex = 5;
@@ -204,12 +206,27 @@
             this.label6.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.label6, 2);
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(19, 192);
+            this.label6.Location = new System.Drawing.Point(19, 197);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(262, 13);
             this.label6.TabIndex = 1;
             this.label6.Text = "(Rule :  Only called if the tube is over 40lbs) ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.label7, 2);
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(3, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(278, 30);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Tooling";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // UserControlForOP_30
             // 
@@ -240,6 +257,7 @@
         public System.Windows.Forms.GroupBox groupBox1;
         public System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
 
     }
 }

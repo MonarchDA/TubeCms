@@ -494,11 +494,11 @@ namespace CMSTooling
                     lblWeldSize.Location = new Point(735, 18);
                     lblWeldSize.Text = "Weld Size :";
                     lblWeldSize.Visible = true;
-                    tableLayoutPanel2.Controls.Add(lblWeldSize, 6, 0);
+                    tableLayoutPanel2.Controls.Add(lblWeldSize, 6, 1);
                     lblWeldSize.Dock = DockStyle.Bottom;
                     lblWeldSize.TextAlign = ContentAlignment.MiddleCenter;
                     cmbWeldSize.Location = new Point(875, 7);
-                    tableLayoutPanel2.Controls.Add(cmbWeldSize, 7, 0);
+                    tableLayoutPanel2.Controls.Add(cmbWeldSize, 7, 1);
                     cmbWeldSize.Visible = true;
                     cmbWeldSize.Dock = DockStyle.Bottom;
                     cmbWeldSize.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -510,11 +510,11 @@ namespace CMSTooling
                 lblPort.Location = new Point(735, 18);
                 lblPort.Text = "Port Type :";
                 lblPort.Visible = true;
-                tableLayoutPanel2.Controls.Add(lblPort, 6, 0);
+                tableLayoutPanel2.Controls.Add(lblPort, 6, 1);
                 lblPort.Dock = DockStyle.Bottom;
                 lblPort.TextAlign = ContentAlignment.MiddleCenter;
                 cmbPortAngle.Location = new Point(875, 7);
-                tableLayoutPanel2.Controls.Add(cmbPorts, 7, 0);
+                tableLayoutPanel2.Controls.Add(cmbPorts, 7, 1);
                 cmbPorts.Visible = true;
                 cmbPorts.Dock = DockStyle.Bottom;
                 cmbPorts.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -597,11 +597,11 @@ namespace CMSTooling
                     lblTubeEndConfiguration.Location = new Point(735, 18);
                     lblTubeEndConfiguration.Text = "TubeEndConfiguration";
                     lblTubeEndConfiguration.Visible = true;
-                    tableLayoutPanel2.Controls.Add(lblTubeEndConfiguration, 6, 0);
+                    tableLayoutPanel2.Controls.Add(lblTubeEndConfiguration, 6, 1);
                     lblTubeEndConfiguration.Dock = DockStyle.Bottom;
                     lblTubeEndConfiguration.TextAlign = ContentAlignment.MiddleCenter;
                     cmbTubeEndConfiguration.Location = new Point(875, 7);
-                    tableLayoutPanel2.Controls.Add(cmbTubeEndConfiguration, 7, 0);
+                    tableLayoutPanel2.Controls.Add(cmbTubeEndConfiguration, 7, 1);
                     cmbTubeEndConfiguration.Visible = true;
                     cmbTubeEndConfiguration.Dock = DockStyle.Bottom;
                     cmbTubeEndConfiguration.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -610,11 +610,11 @@ namespace CMSTooling
                     lblWallThickness.Location = new Point(735, 18);
                     lblWallThickness.Text = "Wall Thickness";
                     lblWallThickness.Visible = true;
-                    tableLayoutPanel2.Controls.Add(lblWallThickness, 0, 1);
+                    tableLayoutPanel2.Controls.Add(lblWallThickness, 0, 2);
                     lblWallThickness.Dock = DockStyle.Bottom;
                     lblWallThickness.TextAlign = ContentAlignment.MiddleCenter;
                     cmbWallThickness.Location = new Point(875, 7);
-                    tableLayoutPanel2.Controls.Add(cmbWallThickness, 1, 1);
+                    tableLayoutPanel2.Controls.Add(cmbWallThickness, 1, 2);
                     cmbWallThickness.Visible = true;
                     cmbWallThickness.Dock = DockStyle.Bottom;
                     cmbWallThickness.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -625,11 +625,11 @@ namespace CMSTooling
                     lblWeldSize.Location = new Point(735, 18);
                     lblWeldSize.Text = "Weld Size :";
                     lblWeldSize.Visible = true;
-                    tableLayoutPanel2.Controls.Add(lblWeldSize, 6, 0);
+                    tableLayoutPanel2.Controls.Add(lblWeldSize, 6, 1);
                     lblWeldSize.Dock = DockStyle.Bottom;
                     lblWeldSize.TextAlign = ContentAlignment.MiddleCenter;
                     cmbWeldSize.Location = new Point(875, 7);
-                    tableLayoutPanel2.Controls.Add(cmbWeldSize, 7, 0);
+                    tableLayoutPanel2.Controls.Add(cmbWeldSize, 7, 1);
                     cmbWeldSize.Visible = true;
                     cmbWeldSize.Dock = DockStyle.Bottom;
                     cmbWeldSize.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -642,11 +642,11 @@ namespace CMSTooling
                     lblWallThickness.Location = new Point(735, 18);
                     lblWallThickness.Text = "Wall Thickness :";
                     lblWallThickness.Visible = true;
-                    tableLayoutPanel2.Controls.Add(lblWallThickness, 6, 0);
+                    tableLayoutPanel2.Controls.Add(lblWallThickness, 6, 1);
                     lblWallThickness.Dock = DockStyle.Bottom;
                     lblWallThickness.TextAlign = ContentAlignment.MiddleCenter;
                     cmbWallThickness.Location = new Point(875, 7);
-                    tableLayoutPanel2.Controls.Add(cmbWallThickness, 7, 0);
+                    tableLayoutPanel2.Controls.Add(cmbWallThickness, 7, 1);
                     cmbWallThickness.Visible = true;
                     cmbWallThickness.Dock = DockStyle.Bottom;
                     cmbWallThickness.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -690,12 +690,12 @@ namespace CMSTooling
 
                 lblPartWeight.Text = "Part Weight :";
                 lblPartWeight.Visible = true;
-                tableLayoutPanel2.Controls.Add(lblPartWeight, 6, 0);
+                tableLayoutPanel2.Controls.Add(lblPartWeight, 6, 1);
                 lblPartWeight.Dock = DockStyle.Bottom;
                 lblPartWeight.TextAlign = ContentAlignment.MiddleCenter;
 
                 cmbPartWeight.Visible = true;
-                tableLayoutPanel2.Controls.Add(cmbPartWeight, 7, 0);
+                tableLayoutPanel2.Controls.Add(cmbPartWeight, 7, 1);
                 cmbPartWeight.Dock = DockStyle.Bottom;
                 cmbPartWeight.DropDownStyle = ComboBoxStyle.DropDownList;
                 cmbPartWeight.FlatStyle = FlatStyle.Popup;
@@ -710,23 +710,23 @@ namespace CMSTooling
 
                 lblpPinHoleSize.Text = "PinHole Size :";
                 lblpPinHoleSize.Visible = true;
-                tableLayoutPanel2.Controls.Add(lblpPinHoleSize, 0, 1);
+                tableLayoutPanel2.Controls.Add(lblpPinHoleSize, 0, 2);
                 lblpPinHoleSize.Dock = DockStyle.Bottom;
                 lblpPinHoleSize.TextAlign = ContentAlignment.MiddleCenter;
 
                 txtPinHoleSize.Visible = true;
-                tableLayoutPanel2.Controls.Add(txtPinHoleSize, 1, 1);
+                tableLayoutPanel2.Controls.Add(txtPinHoleSize, 1, 2);
                 txtPinHoleSize.Dock = DockStyle.Bottom;
                 txtPinHoleSize.Leave += new EventHandler(PinHoleSize_Leave);
 
                 lblTubeEndConfiguration.Text = "TubeEndConfiguration :";
                 lblTubeEndConfiguration.Visible = true;
-                tableLayoutPanel2.Controls.Add(lblTubeEndConfiguration, 2, 1);
+                tableLayoutPanel2.Controls.Add(lblTubeEndConfiguration, 2, 2);
                 lblTubeEndConfiguration.Dock = DockStyle.Bottom;
                 lblTubeEndConfiguration.TextAlign = ContentAlignment.MiddleCenter;
 
                 cmbTubeEndConfiguration.Visible = true;
-                tableLayoutPanel2.Controls.Add(cmbTubeEndConfiguration, 3, 1);
+                tableLayoutPanel2.Controls.Add(cmbTubeEndConfiguration, 3, 2);
                 cmbTubeEndConfiguration.Dock = DockStyle.Bottom;
                 cmbTubeEndConfiguration.DropDownStyle = ComboBoxStyle.DropDownList;
                 cmbTubeEndConfiguration.FlatStyle = FlatStyle.Popup;
@@ -740,12 +740,12 @@ namespace CMSTooling
                 cmbTubeEndConfiguration.SelectedIndexChanged += new EventHandler(cmbTubeEndConfiguration_SelectedIndexChanged);
                 lblHoleDepth.Text = "Hole Depth :";
                 lblHoleDepth.Visible = true;
-                tableLayoutPanel2.Controls.Add(lblHoleDepth, 4, 1);
+                tableLayoutPanel2.Controls.Add(lblHoleDepth, 4, 2);
                 lblHoleDepth.Dock = DockStyle.Bottom;
                 lblHoleDepth.TextAlign = ContentAlignment.MiddleCenter;
 
                 txtHoleDepth.Visible = true;
-                tableLayoutPanel2.Controls.Add(txtHoleDepth, 5, 1);
+                tableLayoutPanel2.Controls.Add(txtHoleDepth, 5, 2);
                 txtHoleDepth.Dock = DockStyle.Bottom;
                 txtHoleDepth.Leave += new EventHandler(HoleDepth_Leave);
                 txtHoleDepth.Click += new EventHandler(txtHoleDepth_Onclick);

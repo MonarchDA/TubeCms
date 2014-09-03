@@ -190,7 +190,6 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.TextBox txtboxWorkInstuction;
@@ -200,5 +199,6 @@
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.TextBox txtWorkInstruction2;
         private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.GroupBox groupBox1;
     }
 }

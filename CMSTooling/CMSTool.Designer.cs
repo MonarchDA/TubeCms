@@ -135,7 +135,6 @@
             this.txtOperation.Name = "txtOperation";
             this.txtOperation.Size = new System.Drawing.Size(85, 21);
             this.txtOperation.TabIndex = 16;
-            this.txtOperation.TextChanged += new System.EventHandler(this.txtOperation_TextChanged);
             // 
             // groupBox1
             // 
@@ -159,7 +158,6 @@
             this.groupBox1.Size = new System.Drawing.Size(289, 229);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // panel1
             // 
@@ -191,7 +189,6 @@
             this.lblSmallHole.TabIndex = 32;
             this.lblSmallHole.Text = "Small Hole  Coining press:";
             this.lblSmallHole.Visible = false;
-            this.lblSmallHole.Click += new System.EventHandler(this.lblSmallHole_Click);
             // 
             // txtSmallHole
             // 
@@ -203,7 +200,6 @@
             this.txtSmallHole.Size = new System.Drawing.Size(95, 21);
             this.txtSmallHole.TabIndex = 28;
             this.txtSmallHole.Visible = false;
-            this.txtSmallHole.TextChanged += new System.EventHandler(this.txtSmallHole_TextChanged);
             // 
             // label9
             // 
@@ -214,7 +210,6 @@
             this.label9.Size = new System.Drawing.Size(262, 13);
             this.label9.TabIndex = 19;
             this.label9.Text = "(Rule :  Only called if the tube is over 40lbs) ";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label8
             // 
@@ -225,7 +220,6 @@
             this.label8.Size = new System.Drawing.Size(37, 15);
             this.label8.TabIndex = 18;
             this.label8.Text = "Tool :";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // txtWieghtTool
             // 
@@ -236,7 +230,6 @@
             this.txtWieghtTool.Name = "txtWieghtTool";
             this.txtWieghtTool.Size = new System.Drawing.Size(96, 21);
             this.txtWieghtTool.TabIndex = 17;
-            this.txtWieghtTool.TextChanged += new System.EventHandler(this.txtWieghtTool_TextChanged);
             // 
             // lblProgram
             // 
@@ -248,7 +241,6 @@
             this.lblProgram.TabIndex = 14;
             this.lblProgram.Text = "Program :";
             this.lblProgram.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblProgram.Click += new System.EventHandler(this.lblProgram_Click);
             // 
             // txtProgram
             // 
@@ -259,7 +251,6 @@
             this.txtProgram.Name = "txtProgram";
             this.txtProgram.Size = new System.Drawing.Size(94, 21);
             this.txtProgram.TabIndex = 13;
-            this.txtProgram.TextChanged += new System.EventHandler(this.txtProgram_TextChanged);
             // 
             // lblWorkInstruction
             // 
@@ -270,7 +261,6 @@
             this.lblWorkInstruction.Size = new System.Drawing.Size(100, 15);
             this.lblWorkInstruction.TabIndex = 12;
             this.lblWorkInstruction.Text = "Work Instruction :";
-            this.lblWorkInstruction.Click += new System.EventHandler(this.lblWorkInstruction_Click);
             // 
             // txtWorkInstruction
             // 
@@ -281,7 +271,6 @@
             this.txtWorkInstruction.Name = "txtWorkInstruction";
             this.txtWorkInstruction.Size = new System.Drawing.Size(94, 21);
             this.txtWorkInstruction.TabIndex = 11;
-            this.txtWorkInstruction.TextChanged += new System.EventHandler(this.txtWorkInstruction_TextChanged);
             // 
             // lblTool
             // 
@@ -292,7 +281,6 @@
             this.lblTool.Size = new System.Drawing.Size(37, 15);
             this.lblTool.TabIndex = 16;
             this.lblTool.Text = "Tool :";
-            this.lblTool.Click += new System.EventHandler(this.lblTool_Click);
             // 
             // txtTool
             // 
@@ -303,7 +291,6 @@
             this.txtTool.Name = "txtTool";
             this.txtTool.Size = new System.Drawing.Size(94, 21);
             this.txtTool.TabIndex = 15;
-            this.txtTool.TextChanged += new System.EventHandler(this.txtTool_TextChanged);
             // 
             // lblSOP
             // 
@@ -336,7 +323,6 @@
             this.txtDepartment.Name = "txtDepartment";
             this.txtDepartment.Size = new System.Drawing.Size(85, 21);
             this.txtDepartment.TabIndex = 15;
-            this.txtDepartment.TextChanged += new System.EventHandler(this.txtDepartment_TextChanged);
             // 
             // txtWorkCenter
             // 
@@ -347,7 +333,6 @@
             this.txtWorkCenter.Name = "txtWorkCenter";
             this.txtWorkCenter.Size = new System.Drawing.Size(85, 21);
             this.txtWorkCenter.TabIndex = 14;
-            this.txtWorkCenter.TextChanged += new System.EventHandler(this.txtWorkCenter_TextChanged);
             // 
             // label12
             // 
@@ -358,7 +343,6 @@
             this.label12.Size = new System.Drawing.Size(67, 15);
             this.label12.TabIndex = 2;
             this.label12.Text = "Operation :";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label5
             // 
@@ -369,7 +353,6 @@
             this.label5.Size = new System.Drawing.Size(120, 15);
             this.label5.TabIndex = 16;
             this.label5.Text = "Standard Run Time :";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtStandardRunTime
             // 
@@ -380,7 +363,6 @@
             this.txtStandardRunTime.Name = "txtStandardRunTime";
             this.txtStandardRunTime.Size = new System.Drawing.Size(85, 21);
             this.txtStandardRunTime.TabIndex = 15;
-            this.txtStandardRunTime.TextChanged += new System.EventHandler(this.txtStandardRunTime_TextChanged);
             // 
             // groupBox2
             // 
@@ -399,7 +381,6 @@
             this.groupBox2.Size = new System.Drawing.Size(265, 194);
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // panel2
             // 
@@ -431,7 +412,6 @@
             this.txtSetUps.Name = "txtSetUps";
             this.txtSetUps.Size = new System.Drawing.Size(85, 21);
             this.txtSetUps.TabIndex = 20;
-            this.txtSetUps.TextChanged += new System.EventHandler(this.txtSetUps_TextChanged);
             // 
             // label14
             // 
@@ -443,7 +423,6 @@
             this.label14.TabIndex = 19;
             this.label14.Text = "Set ups :";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label11
             // 
@@ -454,7 +433,6 @@
             this.label11.Size = new System.Drawing.Size(78, 15);
             this.label11.TabIndex = 1;
             this.label11.Text = "Department :";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
@@ -465,7 +443,6 @@
             this.label10.Size = new System.Drawing.Size(80, 15);
             this.label10.TabIndex = 0;
             this.label10.Text = "Work Center :";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // groupBox3
             // 
@@ -478,7 +455,6 @@
             this.groupBox3.Size = new System.Drawing.Size(220, 100);
             this.groupBox3.TabIndex = 26;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // panel3
             // 
@@ -525,7 +501,6 @@
             this.label3.TabIndex = 21;
             this.label3.Text = "TubeLength :";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // cmbTubeLength
             // 
@@ -624,7 +599,6 @@
             this.label2.TabIndex = 19;
             this.label2.Text = "BoreDiameter :";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -636,7 +610,6 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "OP-Number :";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // cmbOpNo
             // 
@@ -679,7 +652,6 @@
             this.lblPortType.Text = "Port Type :";
             this.lblPortType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblPortType.Visible = false;
-            this.lblPortType.Click += new System.EventHandler(this.lblPortType_Click);
             // 
             // btnRestart
             // 
@@ -1152,7 +1124,6 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(980, 80);
             this.tableLayoutPanel2.TabIndex = 65;
-            this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
             // label13
             // 
@@ -1183,7 +1154,6 @@
             this.DGV_OP_Sheet.Size = new System.Drawing.Size(411, 15);
             this.DGV_OP_Sheet.TabIndex = 0;
             this.DGV_OP_Sheet.Visible = false;
-            this.DGV_OP_Sheet.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_OP_Sheet_CellContentClick);
             // 
             // groupBox4
             // 
@@ -1196,7 +1166,6 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Operation Sheet";
             this.groupBox4.Visible = false;
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // linkReferenceNotes
             // 

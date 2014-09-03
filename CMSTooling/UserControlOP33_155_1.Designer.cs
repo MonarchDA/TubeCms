@@ -45,7 +45,7 @@
             this.Tooling.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tooling.Location = new System.Drawing.Point(0, 0);
             this.Tooling.Name = "Tooling";
-            this.Tooling.Size = new System.Drawing.Size(274, 134);
+            this.Tooling.Size = new System.Drawing.Size(287, 134);
             this.Tooling.TabIndex = 0;
             this.Tooling.TabStop = false;
             // 
@@ -67,7 +67,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.44721F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.44721F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.660499F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(268, 109);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(281, 109);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
             // lblWorkInstruction
@@ -77,7 +77,7 @@
             this.lblWorkInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWorkInstruction.Location = new System.Drawing.Point(3, 53);
             this.lblWorkInstruction.Name = "lblWorkInstruction";
-            this.lblWorkInstruction.Size = new System.Drawing.Size(128, 15);
+            this.lblWorkInstruction.Size = new System.Drawing.Size(134, 15);
             this.lblWorkInstruction.TabIndex = 0;
             this.lblWorkInstruction.Text = "Work Instruction";
             // 
@@ -87,7 +87,7 @@
             this.txtProgram.Enabled = false;
             this.txtProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProgram.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtProgram.Location = new System.Drawing.Point(137, 78);
+            this.txtProgram.Location = new System.Drawing.Point(143, 78);
             this.txtProgram.Name = "txtProgram";
             this.txtProgram.Size = new System.Drawing.Size(100, 21);
             this.txtProgram.TabIndex = 3;
@@ -98,7 +98,7 @@
             this.txtWorkInstruction.Enabled = false;
             this.txtWorkInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWorkInstruction.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtWorkInstruction.Location = new System.Drawing.Point(137, 44);
+            this.txtWorkInstruction.Location = new System.Drawing.Point(143, 44);
             this.txtWorkInstruction.Name = "txtWorkInstruction";
             this.txtWorkInstruction.Size = new System.Drawing.Size(100, 21);
             this.txtWorkInstruction.TabIndex = 1;
@@ -110,7 +110,7 @@
             this.lblProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProgram.Location = new System.Drawing.Point(3, 87);
             this.lblProgram.Name = "lblProgram";
-            this.lblProgram.Size = new System.Drawing.Size(128, 15);
+            this.lblProgram.Size = new System.Drawing.Size(134, 15);
             this.lblProgram.TabIndex = 2;
             this.lblProgram.Text = "Program";
             // 
@@ -124,7 +124,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 34);
+            this.label1.Size = new System.Drawing.Size(275, 34);
             this.label1.TabIndex = 4;
             this.label1.Text = "Tooling";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -145,12 +145,12 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox Tooling;
         private System.Windows.Forms.Label lblProgram;
         private System.Windows.Forms.Label lblWorkInstruction;
         public System.Windows.Forms.TextBox txtProgram;
         public System.Windows.Forms.TextBox txtWorkInstruction;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.GroupBox Tooling;
     }
 }

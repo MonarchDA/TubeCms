@@ -268,8 +268,6 @@ namespace CMSTooling
                     DGV_OP_Sheet.DataSource = ObjBLL.GetOp_sheet(ObjBEL.OpNo);
 
                 }
-
-
                 else if (ObjBEL.OpNo == "OP_005")
                 {
 
@@ -468,7 +466,9 @@ namespace CMSTooling
             cmbWeldSize.SelectedIndexChanged -= new EventHandler(cmbWeldSize_SelectedIndexChanged);
             cmbWeldSize.SelectedIndex = -1;
             cmbWeldSize.SelectedIndexChanged += new EventHandler(cmbWeldSize_SelectedIndexChanged);
-
+            ClrearingAllUsercontrolsdata();
+           
+            
             this.Controls.ClearControls<GroupBox>();
             if (ObjUctrOP_30.txtboxCam.Text !=string.Empty)
             {
@@ -522,10 +522,7 @@ namespace CMSTooling
                 cmbPorts.Enabled = true;
                 cmbPorts.SelectedIndexChanged -= new EventHandler(cmbPorts_SelectedIndexChanged);
                 cmbPorts.SelectedIndex = -1;
-                cmbPorts.SelectedIndexChanged += new EventHandler(cmbPorts_SelectedIndexChanged);
-
-            
-                
+                cmbPorts.SelectedIndexChanged += new EventHandler(cmbPorts_SelectedIndexChanged);             
             }
 
             if ((ObjBEL.OpNo == "OP_030_1") || (ObjBEL.OpNo == "OP_031_1") || (ObjBEL.OpNo=="OP_043_1") || (ObjBEL.OpNo=="OP_044_1"))
@@ -2111,162 +2108,6 @@ namespace CMSTooling
         {
             ObjBEL1.RephasingAt = cmbRephasingAt.SelectedItem.ToString();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblPortType_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtStandardRunTime_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtWorkCenter_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtDepartment_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtOperation_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtSetUps_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DGV_OP_Sheet_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void groupBox4_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtWieghtTool_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblSmallHole_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtSmallHole_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblTool_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtTool_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblProgram_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtProgram_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblWorkInstruction_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtWorkInstruction_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void btnOpNo_Click(object sender, EventArgs e)
         {
             string ValidationMsg = ObjBLL.GetOpButtonValidation(ObjBEL1);
@@ -2290,6 +2131,42 @@ namespace CMSTooling
                 lblTool.Visible = true;
             }
         }
+        private void ClrearingAllUsercontrolsdata()
+        {
+            foreach (Control c in this.ObjUctrOP_59.groupBox1.Controls)
+            {
+                foreach (Control t in c.Controls)
+                {
+                    if (t.GetType() == typeof(TextBox))
+                    {
+                        t.Text = "";
+                    }
+                }
+            }
+            ObjUctrOP_59.txtTool.Text = "Caution Weight";
+            foreach (Control c in this.objUctrDoubleWorkInstruction.groupBox1.Controls)
+            {
+                foreach (Control t in c.Controls)
+                {
+                    if (t.GetType() == typeof(TextBox))
+                    {
+                        t.Text = "";
+                    }
+                }
+            }
+            objUctrDoubleWorkInstruction.txtTool.Text="Caution Weight";
+            foreach (Control c in this.objUctrOP33_155_1.Tooling.Controls)
+            {
+                foreach (Control t in c.Controls)
+                {
+                    if (t.GetType() == typeof(TextBox))
+                    {
+                        t.Text = "";
+                    }
+                }
+            }
+        }
+   
     }
 }
 

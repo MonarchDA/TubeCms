@@ -270,7 +270,10 @@ namespace CMSTooling
                 }
                 else if (ObjBEL.OpNo == "OP_005")
                 {
-
+                    txtWorkInstruction.Visible = false;
+                    lblWorkInstruction.Visible = false;
+                    txtProgram.Visible = false;
+                    lblProgram.Visible = false;
                     txtTool.Width = 100 * 21;
                     txtTool.Text = "ME1 estimated RUN Std	";
                     txtStandardRunTime.Text = ObjBLL.GetStandardRunTimeForAll(ObjBEL).ToString();
@@ -2166,6 +2169,17 @@ namespace CMSTooling
                 }
             }
         }
+
+        private void CMSTool_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            string path = Application.StartupPath;
+            string[] txtList = Directory.GetFiles(path, "*.txt");
+            foreach (string f in txtList)
+            {
+                File.Delete(f);
+            }
+        }
+
    
     }
 }

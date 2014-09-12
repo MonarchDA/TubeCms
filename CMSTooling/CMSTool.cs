@@ -429,7 +429,7 @@ namespace CMSTooling
                 value = "O1093";
             else if (boredia == "4.25")
                 value = "O1094";
-            else if (boredia == "4.5")
+            else if (boredia == "4.50")
                 value = "O1095";
             else if (boredia == "5.00")
                 value = "O1138";

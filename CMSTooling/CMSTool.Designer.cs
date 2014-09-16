@@ -112,6 +112,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnScreenCapture = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -1159,7 +1160,7 @@
             // 
             this.groupBox4.Controls.Add(this.DGV_OP_Sheet);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(328, 771);
+            this.groupBox4.Location = new System.Drawing.Point(40, 768);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(417, 40);
             this.groupBox4.TabIndex = 30;
@@ -1294,12 +1295,28 @@
             this.label7.Text = "Special OP\'s";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnScreenCapture
+            // 
+            this.btnScreenCapture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
+            this.btnScreenCapture.Enabled = false;
+            this.btnScreenCapture.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnScreenCapture.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScreenCapture.ForeColor = System.Drawing.Color.White;
+            this.btnScreenCapture.Location = new System.Drawing.Point(682, 767);
+            this.btnScreenCapture.Name = "btnScreenCapture";
+            this.btnScreenCapture.Size = new System.Drawing.Size(187, 38);
+            this.btnScreenCapture.TabIndex = 127;
+            this.btnScreenCapture.Text = "Screen Capture";
+            this.btnScreenCapture.UseVisualStyleBackColor = false;
+            this.btnScreenCapture.Click += new System.EventHandler(this.btnScreenCapture_Click);
+            // 
             // CMSTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1080, 826);
+            this.Controls.Add(this.btnScreenCapture);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.btnOpNo);
             this.Controls.Add(this.linkReferenceNotes);
@@ -1433,6 +1450,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button btnScreenCapture;
     }
 }
 

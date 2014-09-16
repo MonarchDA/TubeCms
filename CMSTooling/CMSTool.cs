@@ -9,6 +9,11 @@ using System.Windows.Forms;
 using DataAccessLayer;
 using BusinessAccessLayer;
 using System.IO;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Collections;
+using Scripting;
+
 
 namespace CMSTooling
 {
@@ -20,9 +25,11 @@ namespace CMSTooling
         BEL ObjBEL1 = new BEL();
         BLL ObjBLL = new BLL();
         SaveFileDialog sfd = new SaveFileDialog();
+        clsImageCapture oclsImageCapture = new clsImageCapture();
 
         DataTable ObjDataTable = new DataTable();
         DataRow dRow;
+        FileSystemObject fso;
        
         
         public UserControlForOP_30 ObjUctrOP_30 = new UserControlForOP_30();
@@ -63,6 +70,7 @@ namespace CMSTooling
             ObjBEL.MainPortLocator = ObjUctrOP_30.txtboxPortLocator.Text;
             ObjBEL.MainWPDS = ObjUctrOP_30.txtboxWpds.Text;
             txtWieghtTool.Text = "Caution Weight";
+            btnScreenCapture.Enabled = true;
            
 
             string Validation = ObjBLL.MainFormvalidations(ObjBEL);
@@ -440,6 +448,7 @@ namespace CMSTooling
         {
             ObjBEL = new BEL();
           //  ObjUctrOP_3 = new UserControlForOP_30();
+            btnScreenCapture.Enabled = false;
 
             lblPort.Visible = false;
             cmbPorts.Visible = false;
@@ -1243,6 +1252,8 @@ namespace CMSTooling
                 string str = System.Environment.CurrentDirectory + "\\DetailingSheet\\";
                 string filename = str + ObjBEL.OpNo + ".txt";
                 System.Diagnostics.Process.Start(filename);
+              
+                
             }
             else
             {
@@ -2176,9 +2187,43 @@ namespace CMSTooling
             string[] txtList = Directory.GetFiles(path, "*.txt");
             foreach (string f in txtList)
             {
-                File.Delete(f);
+                System.IO.File.Delete(f);
             }
         }
+
+        private void btnScreenCapture_Click(object sender, EventArgs e)
+        {
+           fso=new FileSystemObject();
+            oclsImageCapture.CaptureScreen();
+            PictureBox pic;
+            try
+            {
+                pic = new PictureBox();
+                pic.Image = oclsImageCapture.Background;
+                pic.Name = DateTime.Now.ToString();
+                string OpNo=cmbOpNo.SelectedItem.ToString();
+                if (fso.FolderExists("F:\\TubePrintScreen\\")!=true)
+                {
+                    fso.CreateFolder("F:\\TubePrintScreen\\");
+                }
+                if(System.IO.File.Exists("F:\\TubePrintScreen\\"+OpNo+".jpg"));
+                {
+                    System.IO.File.Delete("F:\\TubePrintScreen\\" + OpNo + ".jpg");
+                }
+                pic.Image.Save("F:\\TubePrintScreen\\" + OpNo + ".jpg", ImageFormat.Jpeg);
+                string msg = @"Screen Shot Saved in Drive F:\TubePrintScreen\" + OpNo + ".jpg";
+                MessageBox.Show(msg,"Location");
+                
+               
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+
+        }
+       
 
    
     }

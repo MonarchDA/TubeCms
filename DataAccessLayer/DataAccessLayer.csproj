@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CMSTooling">
-      <HintPath>..\CMSTooling\bin\Debug\CMSTooling.exe</HintPath>
+      <HintPath>..\..\..\CMSToolingApp\DataAccessLayer\bin\Debug\CMSTooling.exe</HintPath>
     </Reference>
     <Reference Include="IFLBaseDataLayer">
       <HintPath>C:\Users\neeraja.vedulla\Desktop\CMSTooling\CMSTooling\bin\Debug\IFLBaseDataLayer.dll</HintPath>

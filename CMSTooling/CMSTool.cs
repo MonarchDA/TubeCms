@@ -2202,16 +2202,16 @@ namespace CMSTooling
                 pic.Image = oclsImageCapture.Background;
                 pic.Name = DateTime.Now.ToString();
                 string OpNo=cmbOpNo.SelectedItem.ToString();
-                if (fso.FolderExists("F:\\TubePrintScreen\\")!=true)
+                if (fso.FolderExists("D:\\TubePrintScreen\\")!=true)
                 {
-                    fso.CreateFolder("F:\\TubePrintScreen\\");
+                    fso.CreateFolder("D:\\TubePrintScreen\\");
                 }
-                if(System.IO.File.Exists("F:\\TubePrintScreen\\"+OpNo+".jpg"));
+                if(System.IO.File.Exists("D:\\TubePrintScreen\\"+OpNo+".jpg"));
                 {
-                    System.IO.File.Delete("F:\\TubePrintScreen\\" + OpNo + ".jpg");
+                    System.IO.File.Delete("D:\\TubePrintScreen\\" + OpNo + ".jpg");
                 }
-                pic.Image.Save("F:\\TubePrintScreen\\" + OpNo + ".jpg", ImageFormat.Jpeg);
-                string msg = @"Screen Shot Saved in Drive F:\TubePrintScreen\" + OpNo + ".jpg";
+                pic.Image.Save("D:\\TubePrintScreen\\" + OpNo + ".jpg", ImageFormat.Jpeg);
+                string msg = @"Screen Shot Saved in Drive D:\TubePrintScreen\" + OpNo + ".jpg";
                 MessageBox.Show(msg,"Location");
                 
                

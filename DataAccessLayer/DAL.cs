@@ -40,7 +40,7 @@ namespace DataAccessLayer
                 {
                     String strServer = oDataSet.Tables[0].Rows[0].ItemArray[0].ToString();
                     String strDataBase = oDataSet.Tables[0].Rows[0].ItemArray[1].ToString();
-                    CMSConnectionObject = IFLBaseDataLayer.IFLConnectionClass.GetConnectionObject(strServer, strDataBase, "System.Data.SqlClient", "", "", "SSPI");
+                    CMSConnectionObject = IFLBaseDataLayer.IFLConnectionClass.GetConnectionObject(strServer, strDataBase, "System.Data.SqlClient", "sa", "123456789", "");
                     GetConnection = true;
                 }
             }

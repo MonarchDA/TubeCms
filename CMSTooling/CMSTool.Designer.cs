@@ -32,8 +32,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
-            this.lblSmallHole = new System.Windows.Forms.Label();
-            this.txtSmallHole = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtWieghtTool = new System.Windows.Forms.TextBox();
@@ -43,8 +41,6 @@
             this.txtWorkInstruction = new System.Windows.Forms.TextBox();
             this.lblTool = new System.Windows.Forms.Label();
             this.txtTool = new System.Windows.Forms.TextBox();
-            this.lblSOP = new System.Windows.Forms.Label();
-            this.txtSop = new System.Windows.Forms.TextBox();
             this.txtDepartment = new System.Windows.Forms.TextBox();
             this.txtWorkCenter = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -140,8 +136,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.panel1);
-            this.groupBox1.Controls.Add(this.lblSmallHole);
-            this.groupBox1.Controls.Add(this.txtSmallHole);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.txtWieghtTool);
@@ -151,8 +145,6 @@
             this.groupBox1.Controls.Add(this.txtWorkInstruction);
             this.groupBox1.Controls.Add(this.lblTool);
             this.groupBox1.Controls.Add(this.txtTool);
-            this.groupBox1.Controls.Add(this.lblSOP);
-            this.groupBox1.Controls.Add(this.txtSop);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(45, 513);
             this.groupBox1.Name = "groupBox1";
@@ -181,27 +173,6 @@
             this.label15.TabIndex = 0;
             this.label15.Text = "Tooling";
             // 
-            // lblSmallHole
-            // 
-            this.lblSmallHole.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSmallHole.Location = new System.Drawing.Point(21, 138);
-            this.lblSmallHole.Name = "lblSmallHole";
-            this.lblSmallHole.Size = new System.Drawing.Size(100, 37);
-            this.lblSmallHole.TabIndex = 32;
-            this.lblSmallHole.Text = "Small Hole  Coining press:";
-            this.lblSmallHole.Visible = false;
-            // 
-            // txtSmallHole
-            // 
-            this.txtSmallHole.Enabled = false;
-            this.txtSmallHole.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSmallHole.ForeColor = System.Drawing.Color.White;
-            this.txtSmallHole.Location = new System.Drawing.Point(127, 143);
-            this.txtSmallHole.Name = "txtSmallHole";
-            this.txtSmallHole.Size = new System.Drawing.Size(95, 21);
-            this.txtSmallHole.TabIndex = 28;
-            this.txtSmallHole.Visible = false;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -216,7 +187,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(21, 178);
+            this.label8.Location = new System.Drawing.Point(21, 159);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(37, 15);
             this.label8.TabIndex = 18;
@@ -227,7 +198,7 @@
             this.txtWieghtTool.Enabled = false;
             this.txtWieghtTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWieghtTool.ForeColor = System.Drawing.Color.White;
-            this.txtWieghtTool.Location = new System.Drawing.Point(126, 175);
+            this.txtWieghtTool.Location = new System.Drawing.Point(128, 156);
             this.txtWieghtTool.Name = "txtWieghtTool";
             this.txtWieghtTool.Size = new System.Drawing.Size(96, 21);
             this.txtWieghtTool.TabIndex = 17;
@@ -236,7 +207,7 @@
             // 
             this.lblProgram.AutoSize = true;
             this.lblProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProgram.Location = new System.Drawing.Point(21, 83);
+            this.lblProgram.Location = new System.Drawing.Point(21, 93);
             this.lblProgram.Name = "lblProgram";
             this.lblProgram.Size = new System.Drawing.Size(61, 15);
             this.lblProgram.TabIndex = 14;
@@ -248,7 +219,7 @@
             this.txtProgram.Enabled = false;
             this.txtProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProgram.ForeColor = System.Drawing.Color.White;
-            this.txtProgram.Location = new System.Drawing.Point(128, 77);
+            this.txtProgram.Location = new System.Drawing.Point(130, 87);
             this.txtProgram.Name = "txtProgram";
             this.txtProgram.Size = new System.Drawing.Size(94, 21);
             this.txtProgram.TabIndex = 13;
@@ -257,7 +228,7 @@
             // 
             this.lblWorkInstruction.AutoSize = true;
             this.lblWorkInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWorkInstruction.Location = new System.Drawing.Point(21, 53);
+            this.lblWorkInstruction.Location = new System.Drawing.Point(21, 60);
             this.lblWorkInstruction.Name = "lblWorkInstruction";
             this.lblWorkInstruction.Size = new System.Drawing.Size(100, 15);
             this.lblWorkInstruction.TabIndex = 12;
@@ -268,7 +239,7 @@
             this.txtWorkInstruction.Enabled = false;
             this.txtWorkInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWorkInstruction.ForeColor = System.Drawing.Color.White;
-            this.txtWorkInstruction.Location = new System.Drawing.Point(129, 50);
+            this.txtWorkInstruction.Location = new System.Drawing.Point(130, 57);
             this.txtWorkInstruction.Name = "txtWorkInstruction";
             this.txtWorkInstruction.Size = new System.Drawing.Size(94, 21);
             this.txtWorkInstruction.TabIndex = 11;
@@ -277,7 +248,7 @@
             // 
             this.lblTool.AutoSize = true;
             this.lblTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTool.Location = new System.Drawing.Point(22, 117);
+            this.lblTool.Location = new System.Drawing.Point(21, 126);
             this.lblTool.Name = "lblTool";
             this.lblTool.Size = new System.Drawing.Size(37, 15);
             this.lblTool.TabIndex = 16;
@@ -288,32 +259,10 @@
             this.txtTool.Enabled = false;
             this.txtTool.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTool.ForeColor = System.Drawing.Color.White;
-            this.txtTool.Location = new System.Drawing.Point(128, 114);
+            this.txtTool.Location = new System.Drawing.Point(130, 123);
             this.txtTool.Name = "txtTool";
             this.txtTool.Size = new System.Drawing.Size(94, 21);
             this.txtTool.TabIndex = 15;
-            // 
-            // lblSOP
-            // 
-            this.lblSOP.AutoSize = true;
-            this.lblSOP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSOP.Location = new System.Drawing.Point(21, 100);
-            this.lblSOP.Name = "lblSOP";
-            this.lblSOP.Size = new System.Drawing.Size(32, 15);
-            this.lblSOP.TabIndex = 31;
-            this.lblSOP.Text = "SOP";
-            this.lblSOP.Visible = false;
-            // 
-            // txtSop
-            // 
-            this.txtSop.Enabled = false;
-            this.txtSop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSop.ForeColor = System.Drawing.Color.White;
-            this.txtSop.Location = new System.Drawing.Point(127, 97);
-            this.txtSop.Name = "txtSop";
-            this.txtSop.Size = new System.Drawing.Size(95, 21);
-            this.txtSop.TabIndex = 30;
-            this.txtSop.Visible = false;
             // 
             // txtDepartment
             // 
@@ -377,7 +326,7 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(366, 516);
+            this.groupBox2.Location = new System.Drawing.Point(384, 516);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(265, 194);
             this.groupBox2.TabIndex = 25;
@@ -451,7 +400,7 @@
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.txtStandardRunTime);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(657, 518);
+            this.groupBox3.Location = new System.Drawing.Point(693, 518);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(220, 100);
             this.groupBox3.TabIndex = 26;
@@ -1205,7 +1154,7 @@
             this.chkOP031_1.Size = new System.Drawing.Size(656, 20);
             this.chkOP031_1.TabIndex = 119;
             this.chkOP031_1.Text = "Op 031-1  Second port weld OP used in if the offset distance or the port sizes be" +
-    "tween two ports are different";
+                "tween two ports are different";
             this.chkOP031_1.UseVisualStyleBackColor = true;
             // 
             // chkOP044_1
@@ -1218,7 +1167,7 @@
             this.chkOP044_1.Size = new System.Drawing.Size(680, 20);
             this.chkOP044_1.TabIndex = 122;
             this.chkOP044_1.Text = "OP 044-1 Second port weld OP used in only if two different port locators are requ" +
-    "ired or there is a rephasing port";
+                "ired or there is a rephasing port";
             this.chkOP044_1.UseVisualStyleBackColor = true;
             // 
             // chkOP062_1
@@ -1255,7 +1204,7 @@
             this.chkOP054.Size = new System.Drawing.Size(531, 20);
             this.chkOP054.TabIndex = 125;
             this.chkOP054.Text = "OP 054 Wash -Skived WR style  Not req\'d for WRP or for tubes 30” in length or gre" +
-    "ater";
+                "ater";
             this.chkOP054.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
@@ -1315,7 +1264,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1080, 826);
+            this.ClientSize = new System.Drawing.Size(1072, 826);
             this.Controls.Add(this.btnScreenCapture);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.btnOpNo);
@@ -1397,9 +1346,6 @@
         private System.Windows.Forms.Button btnRestart;
         private System.Windows.Forms.TextBox txtSetUps;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtSmallHole;
-        private System.Windows.Forms.Label lblSOP;
-        private System.Windows.Forms.TextBox txtSop;
         private System.Windows.Forms.Button btnSaveToNotepad;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label lblDesign;
@@ -1430,7 +1376,6 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.LinkLabel linkReferenceNotes;
         private System.Windows.Forms.Label lblPortOrientation;
-        private System.Windows.Forms.Label lblSmallHole;
         private System.Windows.Forms.ComboBox cmbRephasingAt;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnOpNo;

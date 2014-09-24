@@ -253,3 +253,13 @@ F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Debug\DataAccessLayer.pdb
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.csprojResolveAssemblyReference.cache
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.dll
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.pdb
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.pdb
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\bin\Debug\CMSTooling.exe
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\bin\Debug\IFLBaseDataLayer.dll
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\bin\Debug\CMSTooling.pdb
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.csprojResolveAssemblyReference.cache
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.dll
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.pdb

@@ -232,7 +232,10 @@ namespace CMSTooling
                 }
                 else if (ObjBEL.OpNo == "OP_020_1" || ObjBEL.OpNo == "OP_022_1" || ObjBEL.OpNo == "OP_042_1" || ObjBEL.OpNo == "OP_042_2" || ObjBEL.OpNo == "OP_042_3" || ObjBEL.OpNo == "OP_050_1" || ObjBEL.OpNo == "OP_050_2" || ObjBEL.OpNo == "OP_050_3")
                 {
-                  
+                    objUctrDoubleWorkInstruction.txtSop.Visible = false;
+                    objUctrDoubleWorkInstruction.txtSmallHole.Visible = false;
+                    objUctrDoubleWorkInstruction.lblSop.Visible = false;
+                    objUctrDoubleWorkInstruction.lblSmallHole.Visible = false;
                     dRow = ObjDAL.getDoubleWorkInstructionTooling(ObjBEL);
                     groupBox1.Visible = false;
                     objUctrDoubleWorkInstruction.Visible = true;
@@ -242,8 +245,12 @@ namespace CMSTooling
                     DGV_OP_Sheet.AutoResizeColumns();
                     if (ObjBEL.OpNo == "OP_042_1" || ObjBEL.OpNo == "OP_042_2" || ObjBEL.OpNo == "OP_042_3")
                     {
-                        txtSop.Text = "275322";
-                        txtSmallHole.Text = "502031";
+                        objUctrDoubleWorkInstruction.lblSop.Visible = true;
+                        objUctrDoubleWorkInstruction.lblSmallHole.Visible = true;
+                        objUctrDoubleWorkInstruction.txtSop.Visible = true;
+                        objUctrDoubleWorkInstruction.txtSmallHole.Visible = true;
+                        objUctrDoubleWorkInstruction.txtSop.Text = "275322";
+                        objUctrDoubleWorkInstruction.txtSmallHole.Text = "502031";
                         DGV_OP_Sheet.DataSource = ObjBLL.GetOp_sheet(ObjBEL.OpNo);
 
                     }
@@ -310,7 +317,7 @@ namespace CMSTooling
 
                     DGV_OP_Sheet.DataSource = ObjBLL.GetOp_sheet(ObjBEL.OpNo);
                 }
-                else if (ObjBEL.OpNo == "OP_045_1")
+                else if ((ObjBEL.OpNo == "OP_045_1")|| (ObjBEL.OpNo=="OP_045_2"))
                 {
                     txtStandardRunTime.Text = ObjBLL.GetStandardRunTimeForAll(ObjBEL).ToString();
 
@@ -375,6 +382,7 @@ namespace CMSTooling
                     txtTool.Visible = true;
                     if (ObjBEL.OpNo == "OP_010_1" || ObjBEL.OpNo == "OP_010_3" || ObjBEL.OpNo == "OP_010_4" || ObjBEL.OpNo == "OP_010_5")
                     {
+                        txtTool.Text = "Tool";
                         dRow = ObjDAL.GetToolingData(ObjBEL);
                         txtWorkInstruction.Text = dRow.ItemArray[0].ToString();
                         txtProgram.Text = dRow.ItemArray[1].ToString();
@@ -474,6 +482,7 @@ namespace CMSTooling
             cmbTubeEndConfiguration.Visible = false;
             lblHoleDepth.Visible = false;
             txtHoleDepth.Visible = false;
+            lblTool.Text = "Tool";
             txtHoleDepth.ResetText();
             cmbWeldSize.SelectedIndexChanged -= new EventHandler(cmbWeldSize_SelectedIndexChanged);
             cmbWeldSize.SelectedIndex = -1;
@@ -589,14 +598,15 @@ namespace CMSTooling
                 }
             
             } 
-            else if(ObjBEL.OpNo=="OP_045_1")
+            else if((ObjBEL.OpNo=="OP_045_1")||(ObjBEL.OpNo=="OP_045_2"))
             {
                 groupBox1.Visible = false;
+                ObjUctrOp_70.Visible = true;
                //ObjUctrOp_70.Location = new Point(34, 486);
                 ObjUctrOp_70.Location = UsercontrolLocation;
                
                 this.Controls.Add(ObjUctrOp_70);
-                ObjUctrOp_70.Visible = true;
+           
                 ObjUctrOp_70.txtTooling70.Text = "Caution Weight";
             }
             else if ((ObjBEL.OpNo == "OP_059_1") || (ObjBEL.OpNo == "OP_060_1") || (ObjBEL.OpNo == "OP_061_1") || (ObjBEL.OpNo == "OP_062_1" ))
@@ -978,8 +988,7 @@ namespace CMSTooling
             {
 
                 LoadWeldSize();
-            }
-            
+            }         
         }
 
         private void cmbWallThickness_SelectedIndexChanged(object sender, EventArgs e)
@@ -1223,10 +1232,10 @@ namespace CMSTooling
                 txtProgram.Visible = false;
                 lblTool.Visible = false;
                 txtTool.Visible = false;
-                lblSmallHole.Visible = true;
-                txtSmallHole.Visible = true;
-                lblSOP.Visible = true;
-                txtSop.Visible = true;
+                //lblSmallHole.Visible = true;
+                //txtSmallHole.Visible = true;
+                //lblSOP.Visible = true;
+                //txtSop.Visible = true;
             }
             //else if (ObjBEL.OpNo == "OP_005")
             //{
@@ -1891,30 +1900,6 @@ namespace CMSTooling
             }
         }
 
-        private void btnOpNo_Click_1(object sender, EventArgs e)
-        {
-            //string ValidationMsg = ObjBLL.GetOpButtonValidation(ObjBEL1);
-
-            //if (ValidationMsg != null)
-            //{
-            //    MessageBox.Show(ValidationMsg, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
-            //}
-            //else 
-            //{
-            //    cmbOpNo.Items.Clear();
-            //    LoadMultipleOP();
-            //    cmbOpNo.SelectedIndex = 0;
-            //    cmbOpNo.Enabled = true;
-            //    txtWorkInstruction.Visible = true;
-            //    lblWorkInstruction.Visible = true;
-            //    txtProgram.Visible = true;
-            //    lblProgram.Visible = true;
-            //    txtTool.Visible = true;
-            //    lblTool.Visible = true;
-            //}
-           
-        }
-
         private void cmbOrificeSize_MeasureItem(object sender, MeasureItemEventArgs e)
         {
             if (cmbOrificeSize.Items[e.Index].ToString().Length > 22)
@@ -2194,38 +2179,34 @@ namespace CMSTooling
         private void btnScreenCapture_Click(object sender, EventArgs e)
         {
            fso=new FileSystemObject();
-            oclsImageCapture.CaptureScreen();
-            PictureBox pic;
-            try
-            {
-                pic = new PictureBox();
-                pic.Image = oclsImageCapture.Background;
-                pic.Name = DateTime.Now.ToString();
-                string OpNo=cmbOpNo.SelectedItem.ToString();
-                if (fso.FolderExists("D:\\TubePrintScreen\\")!=true)
+                try
                 {
-                    fso.CreateFolder("D:\\TubePrintScreen\\");
+                    Rectangle bounds = this.Bounds;
+                    using (Bitmap bitmap = new Bitmap(bounds.Width, bounds.Height))
+                    {
+                        using (Graphics objGraphic = Graphics.FromImage(bitmap))
+                        {
+                           objGraphic.CopyFromScreen(new Point(bounds.Left, bounds.Top), Point.Empty, bounds.Size);
+                        }
+                         string OpNo=cmbOpNo.SelectedItem.ToString();
+                         if (fso.FolderExists("D:\\TubePrintScreen\\")!=true)
+                         {
+                             fso.CreateFolder("D:\\TubePrintScreen\\");
+                         }
+                         if(System.IO.File.Exists("D:\\TubePrintScreen\\"+OpNo+".jpg"))
+                         {
+                             System.IO.File.Delete("D:\\TubePrintScreen\\" + OpNo + ".jpg");
+                         }
+                         bitmap.Save("D:\\TubePrintScreen\\" + OpNo + ".jpg", ImageFormat.Jpeg);
+                         string msg = @"Screen Shot Saved in Drive D:\TubePrintScreen\" + OpNo + ".jpg";
+                         MessageBox.Show(msg,"Location");                    
+                    }
                 }
-                if(System.IO.File.Exists("D:\\TubePrintScreen\\"+OpNo+".jpg"));
-                {
-                    System.IO.File.Delete("D:\\TubePrintScreen\\" + OpNo + ".jpg");
-                }
-                pic.Image.Save("D:\\TubePrintScreen\\" + OpNo + ".jpg", ImageFormat.Jpeg);
-                string msg = @"Screen Shot Saved in Drive D:\TubePrintScreen\" + OpNo + ".jpg";
-                MessageBox.Show(msg,"Location");
-                
-               
-            }
             catch (Exception)
-            {
-                
+            {               
                 throw;
             }
-
         }
-       
-
-   
     }
 }
 

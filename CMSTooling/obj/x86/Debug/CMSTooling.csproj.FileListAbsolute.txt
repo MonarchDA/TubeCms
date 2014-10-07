@@ -53,7 +53,6 @@ F:\git\tubecms\Tube\TubeCms\CMSTooling\bin\Debug\CMSTooling.pdb
 F:\git\tubecms\Tube\TubeCms\CMSTooling\bin\Debug\DataAccessLayer.dll
 F:\git\tubecms\Tube\TubeCms\CMSTooling\bin\Debug\IFLBaseDataLayer.dll
 F:\git\tubecms\Tube\TubeCms\CMSTooling\bin\Debug\DataAccessLayer.pdb
-F:\git\tubecms\Tube\TubeCms\CMSTooling\bin\Debug\BusinessAccessLayer.pdb
 F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.csprojResolveAssemblyReference.cache
 F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.CAMForm.resources
 F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.CMSTool.resources
@@ -67,3 +66,4 @@ F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.UserControlForOP
 F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.UserControlOP33_155_1.resources
 F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.WPDSForm.resources
 F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.csproj.GenerateResource.Cache
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Debug\CMSTooling.frmLogin.resources

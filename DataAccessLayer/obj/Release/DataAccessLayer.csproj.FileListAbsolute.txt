@@ -5,3 +5,6 @@ F:\CMSToolingApp\DataAccessLayer\bin\Release\IFLBaseDataLayer.dll
 F:\CMSToolingApp\DataAccessLayer\bin\Release\IFLCommonLayer.dll
 F:\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.dll
 F:\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+F:\git\tubecms\Tube\TubeCms\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\git\tubecms\Tube\TubeCms\DataAccessLayer\obj\Release\DataAccessLayer.dll
+F:\git\tubecms\Tube\TubeCms\DataAccessLayer\obj\Release\DataAccessLayer.pdb

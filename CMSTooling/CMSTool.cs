@@ -2110,7 +2110,7 @@ namespace CMSTooling
         private void btnOpNo_Click(object sender, EventArgs e)
         {
             string ValidationMsg = ObjBLL.GetOpButtonValidation(ObjBEL1);
-
+      
             if (ValidationMsg != null)
             {
                FindEmptyControls(tableLayoutPanel1);
@@ -2207,6 +2207,8 @@ namespace CMSTooling
                 throw;
             }
         }
+
+      
     }
 }
 

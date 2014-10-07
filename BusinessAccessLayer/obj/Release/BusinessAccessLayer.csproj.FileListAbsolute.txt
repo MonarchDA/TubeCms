@@ -8,6 +8,7 @@ F:\CMSToolingApp\BusinessAccessLayer\bin\Release\CMSTooling.pdb
 F:\CMSToolingApp\BusinessAccessLayer\bin\Release\DataAccessLayer.pdb
 F:\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.dll
 F:\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.pdb
+<<<<<<< HEAD
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\BusinessAccessLayer.dll
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\BusinessAccessLayer.pdb
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\CMSTooling.exe
@@ -18,3 +19,8 @@ F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\DataAccessLayer.pdb
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.csprojResolveAssemblyReference.cache
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.dll
 F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.pdb
+||||||| merged common ancestors
+=======
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\obj\Release\BusinessAccessLayer.csprojResolveAssemblyReference.cache
+F:\git\tubecms\Tube\TubeCms\BusinessAccessLayer\obj\Release\BusinessAccessLayer.dll
+>>>>>>> 91d1796a74656a337d5660391088e0aebae81075

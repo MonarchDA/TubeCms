@@ -66,6 +66,12 @@
     <Compile Include="CMSTool.Designer.cs">
       <DependentUpon>CMSTool.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="HelpingClassToClearControls.cs" />
     <Compile Include="PortLocatorForm.cs">
       <SubType>Form</SubType>
@@ -123,6 +129,9 @@
     <EmbeddedResource Include="CMSTool.resx">
       <DependentUpon>CMSTool.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PortLocatorForm.resx">
       <DependentUpon>PortLocatorForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +143,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ReferenceNotes.resx">
       <DependentUpon>ReferenceNotes.cs</DependentUpon>
@@ -185,6 +195,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

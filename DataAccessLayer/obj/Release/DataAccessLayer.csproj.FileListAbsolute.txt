@@ -5,6 +5,13 @@ F:\CMSToolingApp\DataAccessLayer\bin\Release\IFLBaseDataLayer.dll
 F:\CMSToolingApp\DataAccessLayer\bin\Release\IFLCommonLayer.dll
 F:\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.dll
 F:\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+<<<<<<< HEAD
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.dll
 F:\TubeCms\Git\CMSToolingApp\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+||||||| merged common ancestors
+=======
+F:\git\tubecms\Tube\TubeCms\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\git\tubecms\Tube\TubeCms\DataAccessLayer\obj\Release\DataAccessLayer.dll
+F:\git\tubecms\Tube\TubeCms\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+>>>>>>> 91d1796a74656a337d5660391088e0aebae81075

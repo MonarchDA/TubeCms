@@ -2143,7 +2143,7 @@ namespace CMSTooling
         {
            
             string ValidationMsg = ObjBLL.GetOpButtonValidation(ObjBEL1);
-
+      
             if (ValidationMsg != null)
             {
                //FindEmptyControls(tableLayoutPanel1);
@@ -2238,6 +2238,7 @@ namespace CMSTooling
                // throw;
             }
         }
+<<<<<<< HEAD
 
 
         private void CreateFolder()
@@ -2284,6 +2285,11 @@ namespace CMSTooling
         }
 
         
+||||||| merged common ancestors
+=======
+
+      
+>>>>>>> 91d1796a74656a337d5660391088e0aebae81075
     }
 }
 

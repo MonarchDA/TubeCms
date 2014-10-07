@@ -11,6 +11,7 @@ F:\CMSToolingApp\CMSTooling\bin\Release\IFLBaseDataLayer.dll
 F:\CMSToolingApp\CMSTooling\bin\Release\DataAccessLayer.pdb
 F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.exe
 F:\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.pdb
+<<<<<<< HEAD
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.csprojResolveAssemblyReference.cache
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Release\Interop.Scripting.dll
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.csproj.ResolveComReference.cache
@@ -28,3 +29,23 @@ F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.WPDSForm.reso
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.csproj.GenerateResource.Cache
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.exe
 F:\TubeCms\Git\CMSToolingApp\CMSTooling\obj\x86\Release\CMSTooling.pdb
+||||||| merged common ancestors
+=======
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\Interop.Scripting.dll
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.csproj.ResolveComReference.cache
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.exe
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.pdb
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.csprojResolveAssemblyReference.cache
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.CAMForm.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.CMSTool.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.PortLocatorForm.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.Properties.Resources.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.ReferenceNotes.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.UserControlDoubleWorkInstruction.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.UserControlForOP_059.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.UserControlForOP_070.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.UserControlForOP_30.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.UserControlOP33_155_1.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.WPDSForm.resources
+F:\git\tubecms\Tube\TubeCms\CMSTooling\obj\x86\Release\CMSTooling.csproj.GenerateResource.Cache
+>>>>>>> 91d1796a74656a337d5660391088e0aebae81075

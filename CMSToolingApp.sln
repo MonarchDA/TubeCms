@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSTooling", "CMSTooling\CMSTooling.csproj", "{38CEF9D2-12E6-4B4B-ACBC-40D8D057C9AE}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Tube Tool", "Tube Tool\Tube Tool.vdproj", "{CDE38AED-1DC5-48A9-880F-4F03DC4E3B15}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Tube Cms", "Tube Cms\Tube Cms.vdproj", "{FCFCD86B-F8BF-40B6-94FD-D97FA00579F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,12 +49,12 @@ Global
 		{38CEF9D2-12E6-4B4B-ACBC-40D8D057C9AE}.Release|Mixed Platforms.Build.0 = Release|x86
 		{38CEF9D2-12E6-4B4B-ACBC-40D8D057C9AE}.Release|x86.ActiveCfg = Release|x86
 		{38CEF9D2-12E6-4B4B-ACBC-40D8D057C9AE}.Release|x86.Build.0 = Release|x86
-		{CDE38AED-1DC5-48A9-880F-4F03DC4E3B15}.Debug|Any CPU.ActiveCfg = Debug
-		{CDE38AED-1DC5-48A9-880F-4F03DC4E3B15}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{CDE38AED-1DC5-48A9-880F-4F03DC4E3B15}.Debug|x86.ActiveCfg = Debug
-		{CDE38AED-1DC5-48A9-880F-4F03DC4E3B15}.Release|Any CPU.ActiveCfg = Release
-		{CDE38AED-1DC5-48A9-880F-4F03DC4E3B15}.Release|Mixed Platforms.ActiveCfg = Release
-		{CDE38AED-1DC5-48A9-880F-4F03DC4E3B15}.Release|x86.ActiveCfg = Release
+		{FCFCD86B-F8BF-40B6-94FD-D97FA00579F7}.Debug|Any CPU.ActiveCfg = Debug
+		{FCFCD86B-F8BF-40B6-94FD-D97FA00579F7}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{FCFCD86B-F8BF-40B6-94FD-D97FA00579F7}.Debug|x86.ActiveCfg = Debug
+		{FCFCD86B-F8BF-40B6-94FD-D97FA00579F7}.Release|Any CPU.ActiveCfg = Release
+		{FCFCD86B-F8BF-40B6-94FD-D97FA00579F7}.Release|Mixed Platforms.ActiveCfg = Release
+		{FCFCD86B-F8BF-40B6-94FD-D97FA00579F7}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

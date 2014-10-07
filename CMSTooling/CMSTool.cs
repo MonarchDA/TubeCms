@@ -25,11 +25,12 @@ namespace CMSTooling
         BEL ObjBEL1 = new BEL();
         BLL ObjBLL = new BLL();
         SaveFileDialog sfd = new SaveFileDialog();
-        clsImageCapture oclsImageCapture = new clsImageCapture();
+       // clsImageCapture oclsImageCapture = new clsImageCapture();
 
         DataTable ObjDataTable = new DataTable();
         DataRow dRow;
-        FileSystemObject fso;
+        FileSystemObject fso =new FileSystemObject();
+
        
         
         public UserControlForOP_30 ObjUctrOP_30 = new UserControlForOP_30();
@@ -54,14 +55,23 @@ namespace CMSTooling
         Label lblPort = new Label();
         ComboBox cmbPorts = new ComboBox();
         Point UsercontrolLocation = new Point();
+        
+        
         public CMSTool()
         {
+          
             InitializeComponent();
 
         }
       
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtTubeNumber.Text))
+            {
+                MessageBox.Show("please Enter Tube Number");
+                return;
+
+            }
             changeTextBoxBackGround(groupBox1);
             changeTextBoxBackGround(groupBox2);
             changeTextBoxBackGround(groupBox3);
@@ -1076,6 +1086,7 @@ namespace CMSTooling
 
         private void CMSTool_Load(object sender, EventArgs e)
         {
+          
             UsercontrolLocation = groupBox1.Location;
             //ObjBEL = new BEL();
             //txtWorkInstruction2.Visible = false;
@@ -1248,6 +1259,7 @@ namespace CMSTooling
         }
         private void btnSaveToNotepad_Click(object sender, EventArgs e)
         {
+            string str = System.Environment.CurrentDirectory + @"\DetailingSheet\";
             if (ObjBEL.OpNo == "OP_070_3")
             {
                 MessageBox.Show("Leave Operation Sheet Blank, Note in Action List Process Engineer to Set Up 199 OP");
@@ -1258,20 +1270,40 @@ namespace CMSTooling
             }
             else if (ObjBEL.OpNo == "OP_011_1" || ObjBEL.OpNo == "OP_011_2" || ObjBEL.OpNo == "OP_011_3")
             {
-                string str = System.Environment.CurrentDirectory + "\\DetailingSheet\\";
+                //string str = System.Environment.CurrentDirectory + "\\DetailingSheet\\";
                 string filename = str + ObjBEL.OpNo + ".txt";
-                System.Diagnostics.Process.Start(filename);
+                //System.Diagnostics.Process.Start(filename);
+                
+
+
+                if (System.IO.File.Exists(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + filename + ".txt"))
+                {
+                    System.IO.File.Delete(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + filename + ".txt");
+                }
+                string Dest = @"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + ObjBEL.OpNo + ".txt";
+                fso.CopyFile(filename, Dest, true);
+                
+
               
                 
             }
             else
             {
-                sfd.Filter = "Text Files (*.txt)|*.txt";
-                sfd.FileName = ObjBEL.OpNo + ".txt";
-                sfd.CreatePrompt = true;
-                ToNotePad(DGV_OP_Sheet, sfd.FileName);
-                string filename = sfd.FileName;
-                System.Diagnostics.Process.Start(filename);
+                //sfd.Filter = "Text Files (*.txt)|*.txt";
+                //sfd.FileName = ObjBEL.OpNo + ".txt";
+                //sfd.CreatePrompt = true;
+                //ToNotePad(DGV_OP_Sheet, sfd.FileName);
+                //string filename = sfd.FileName;
+                string filename = str + ObjBEL.OpNo + ".txt";
+                ToNotePad(DGV_OP_Sheet, filename);
+                System.Diagnostics.Process.Start(@filename);
+               
+                if (System.IO.File.Exists(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + filename + ".txt"))
+                {
+                    System.IO.File.Delete(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + filename + ".txt");
+                }
+                string Dest = @"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + ObjBEL.OpNo + ".txt";
+                fso.CopyFile(@filename, Dest, true);
             }
         }
 
@@ -2019,27 +2051,27 @@ namespace CMSTooling
             chkOP070_3.Enabled = false;
         }
 
-        public void FindEmptyControls(TableLayoutPanel tablelayoutcontrol)
-        {
-             Color windowcolor = Color.FromArgb(255, 255, 255);
-             foreach (Control item in tablelayoutcontrol.Controls)
-             {
-                 if (item is ComboBox)
-                 {
-                     if (item.Text == "" && item.Enabled == true)
-                     {
-                         item.BackColor = Color.LightSalmon;
+        //public void FindEmptyControls(TableLayoutPanel tablelayoutcontrol)
+        //{
+        //     Color windowcolor = Color.FromArgb(255, 255, 255);
+        //     foreach (Control item in tablelayoutcontrol.Controls)
+        //     {
+        //         if (item is ComboBox)
+        //         {
+        //             if (item.Text == "" && item.Enabled == true)
+        //             {
+        //                 item.BackColor = Color.LightSalmon;
 
-                     }
-                     else
-                     {
-                         item.BackColor = windowcolor;
-                     }
-                 }
-             }
+        //             }
+        //             else
+        //             {
+        //                 item.BackColor = windowcolor;
+        //             }
+        //         }
+        //     }
 
 
-        }
+        //}
 
         public void changeTextBoxBackGround(GroupBox objGroupBox)
         {
@@ -2109,11 +2141,12 @@ namespace CMSTooling
         }
         private void btnOpNo_Click(object sender, EventArgs e)
         {
+           
             string ValidationMsg = ObjBLL.GetOpButtonValidation(ObjBEL1);
 
             if (ValidationMsg != null)
             {
-               FindEmptyControls(tableLayoutPanel1);
+               //FindEmptyControls(tableLayoutPanel1);
                 MessageBox.Show(ValidationMsg, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
             }
             else
@@ -2128,6 +2161,7 @@ namespace CMSTooling
                 lblProgram.Visible = true;
                 txtTool.Visible = true;
                 lblTool.Visible = true;
+                CreateFolder();
             }
         }
         private void ClrearingAllUsercontrolsdata()
@@ -2178,7 +2212,7 @@ namespace CMSTooling
 
         private void btnScreenCapture_Click(object sender, EventArgs e)
         {
-           fso=new FileSystemObject();
+          
                 try
                 {
                     Rectangle bounds = this.Bounds;
@@ -2189,24 +2223,67 @@ namespace CMSTooling
                            objGraphic.CopyFromScreen(new Point(bounds.Left, bounds.Top), Point.Empty, bounds.Size);
                         }
                          string OpNo=cmbOpNo.SelectedItem.ToString();
-                         if (fso.FolderExists("D:\\TubePrintScreen\\")!=true)
+                        
+                         if (System.IO.File.Exists(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + OpNo + ".jpg"))
                          {
-                             fso.CreateFolder("D:\\TubePrintScreen\\");
+                             System.IO.File.Delete(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + OpNo + ".jpg");
                          }
-                         if(System.IO.File.Exists("D:\\TubePrintScreen\\"+OpNo+".jpg"))
-                         {
-                             System.IO.File.Delete("D:\\TubePrintScreen\\" + OpNo + ".jpg");
-                         }
-                         bitmap.Save("D:\\TubePrintScreen\\" + OpNo + ".jpg", ImageFormat.Jpeg);
-                         string msg = @"Screen Shot Saved in Drive D:\TubePrintScreen\" + OpNo + ".jpg";
+                         bitmap.Save(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + OpNo + ".jpg", ImageFormat.Jpeg);
+                         string msg = @"Screen Shot Saved in Drive D:\TubePrintScreen\" + txtTubeNumber.Text + @"\" + OpNo + ".jpg";
                          MessageBox.Show(msg,"Location");                    
                     }
                 }
             catch (Exception)
             {               
-                throw;
+               // throw;
             }
         }
+
+
+        private void CreateFolder()
+        {
+            try
+            {
+                if (fso.FolderExists(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\")==true)
+                {
+                    fso.DeleteFolder(@"D:\TubePrintScreen\" + txtTubeNumber.Text);
+                }
+                if(fso.FolderExists(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\") != true)
+                {
+                    fso.CreateFolder(@"D:\TubePrintScreen\" + txtTubeNumber.Text + @"\");
+                }
+            }
+            catch (Exception)
+            {
+                
+               
+            }
+            
+        }
+        private void txtTubeNumber_TextChanged(object sender, EventArgs e)
+        {
+
+            ObjBEL1.TubeNumber = txtTubeNumber.Text;
+           
+        }
+
+
+        private void txtTubeNumber_Validating(object sender, CancelEventArgs e)
+        {
+            //if (string.IsNullOrWhiteSpace(txtTubeNumber.Text))
+            //{
+            //    MessageBox.Show("please Enter Tube Number");
+                
+            //}
+
+        }
+
+        private void txtTubeNumber_Leave(object sender, EventArgs e)
+        {
+            ObjBEL1.TubeNumber = txtTubeNumber.Text;
+        }
+
+        
     }
 }
 

@@ -8,3 +8,13 @@ F:\CMSToolingApp\BusinessAccessLayer\bin\Release\CMSTooling.pdb
 F:\CMSToolingApp\BusinessAccessLayer\bin\Release\DataAccessLayer.pdb
 F:\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.dll
 F:\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.pdb
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\BusinessAccessLayer.dll
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\BusinessAccessLayer.pdb
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\CMSTooling.exe
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\DataAccessLayer.dll
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\IFLBaseDataLayer.dll
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\CMSTooling.pdb
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\bin\Release\DataAccessLayer.pdb
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.csprojResolveAssemblyReference.cache
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.dll
+F:\TubeCms\Git\CMSToolingApp\BusinessAccessLayer\obj\Release\BusinessAccessLayer.pdb

@@ -1,0 +1,15 @@
+01            OPERATION DESCRIPTION                   TOOLING                         022
+02            ANALYSIS METHOD                         GAUGING   SAMPLE    SAMPLE      022
+03                                                              SIZE      FREQ        022
+04            _________________________               _____     ______    ______      022
+05                                                                                    022
+06            SKIVE & BURNISH TO SIZE                                                 022
+07                                                                                    022
+08                                                                                    022
+09            **INSPECTION REQUIREMENTS**                                             022
+10                                                                                    022
+11            INSIDE DIAMETER                         DIAL BORE GAUGE     1-5         022
+12            ID CHAMFER ROLL OVER/SCRATCH            VISUAL              1-1         022
+13                                                                                    022
+14            ALL EDGES SHOULD BE FREE OF BURRS & SHARP EDGES                         022
+15                                                                                    022

@@ -7,6 +7,7 @@ namespace CMSTooling
 {
     public class BEL
     {
+       
         private string _Design;
 
         public string Design
@@ -14,6 +15,16 @@ namespace CMSTooling
             get { return _Design; }
             set { _Design = value; }
         }
+
+        private string _TubeNumber;
+
+        public string TubeNumber
+        {
+            get { return _TubeNumber; }
+            set { _TubeNumber = value; }
+        }  
+
+
         private string _CylinderHead;
 
         public string CylinderHead

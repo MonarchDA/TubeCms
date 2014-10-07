@@ -1,0 +1,15 @@
+01            OPERATION DESCRIPTION                   TOOLING                         010
+02            ANALYSIS METHOD                         GAUGING   SAMPLE    SAMPLE      010
+03                                                              SIZE      FREQ        010
+04            _________________________               _____     ______    ______      010
+05                                                                                    010
+06            CUT & CHAMFER TO FINISHED       **BREAK EDGES ONLY**                    010
+07            LENGTH                                                                  010
+08                                                                                    010
+09            **INSPECTION REQUIREMENTS**                                             010
+10                                                                                    010
+11            OVERALL LENGTH                          CALIPER               1-40      010
+12            OD CHAMFER DIAMETER                     CALIPER               1-40      010
+13            ID CHAMFER - BREAK EDGE                 VISUAL                1-1       010
+14                                                                                    010
+15            ALL EDGES SHOULD BE FREE OF BURRS & SHARP EDGES                         010

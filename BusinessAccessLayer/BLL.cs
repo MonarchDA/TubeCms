@@ -114,9 +114,13 @@ namespace BusinessAccessLayer
         public string GetOpButtonValidation(BEL ObjBEL)
         {
             string VlidationMsg = null;
+            if (ObjBEL.TubeNumber == null)
+            {
+                VlidationMsg += "Please Enter Tube Number";
+            }
             if (ObjBEL.Design == null)
             {
-                VlidationMsg += " Please Select Design";
+                VlidationMsg += "\n Please Select Design";
             }
             if (ObjBEL.CylinderHead == null)
             {
@@ -1416,6 +1420,10 @@ namespace BusinessAccessLayer
         public DataTable WallThickness(string BoreDia)
         {
             return ObjDAL.WallThickness(BoreDia);
+        }
+        public string ReadTubeNumber(string TubeNumber)
+        {
+            return TubeNumber;
         }
     }
 }

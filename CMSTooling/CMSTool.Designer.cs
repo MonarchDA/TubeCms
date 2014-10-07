@@ -109,6 +109,8 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label7 = new System.Windows.Forms.Label();
             this.btnScreenCapture = new System.Windows.Forms.Button();
+            this.lblTubeName = new System.Windows.Forms.Label();
+            this.txtTubeNumber = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -146,7 +148,7 @@
             this.groupBox1.Controls.Add(this.lblTool);
             this.groupBox1.Controls.Add(this.txtTool);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(45, 513);
+            this.groupBox1.Location = new System.Drawing.Point(47, 626);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(289, 229);
             this.groupBox1.TabIndex = 24;
@@ -326,7 +328,7 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(384, 516);
+            this.groupBox2.Location = new System.Drawing.Point(386, 629);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(265, 194);
             this.groupBox2.TabIndex = 25;
@@ -400,7 +402,7 @@
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.txtStandardRunTime);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(693, 518);
+            this.groupBox3.Location = new System.Drawing.Point(695, 631);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(220, 100);
             this.groupBox3.TabIndex = 26;
@@ -421,7 +423,7 @@
             this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(122)))), ((int)(((byte)(153)))));
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(29, 4);
+            this.label17.Location = new System.Drawing.Point(35, 6);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(164, 20);
             this.label17.TabIndex = 0;
@@ -433,7 +435,7 @@
             this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Location = new System.Drawing.Point(513, 720);
+            this.btnSubmit.Location = new System.Drawing.Point(47, 861);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(151, 34);
             this.btnSubmit.TabIndex = 23;
@@ -609,9 +611,9 @@
             this.btnRestart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRestart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestart.ForeColor = System.Drawing.Color.White;
-            this.btnRestart.Location = new System.Drawing.Point(876, 716);
+            this.btnRestart.Location = new System.Drawing.Point(782, 861);
             this.btnRestart.Name = "btnRestart";
-            this.btnRestart.Size = new System.Drawing.Size(127, 38);
+            this.btnRestart.Size = new System.Drawing.Size(127, 34);
             this.btnRestart.TabIndex = 31;
             this.btnRestart.Text = "Restart";
             this.btnRestart.UseVisualStyleBackColor = false;
@@ -624,9 +626,9 @@
             this.btnSaveToNotepad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaveToNotepad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveToNotepad.ForeColor = System.Drawing.Color.White;
-            this.btnSaveToNotepad.Location = new System.Drawing.Point(680, 716);
+            this.btnSaveToNotepad.Location = new System.Drawing.Point(486, 861);
             this.btnSaveToNotepad.Name = "btnSaveToNotepad";
-            this.btnSaveToNotepad.Size = new System.Drawing.Size(187, 38);
+            this.btnSaveToNotepad.Size = new System.Drawing.Size(187, 34);
             this.btnSaveToNotepad.TabIndex = 33;
             this.btnSaveToNotepad.Text = "View Detailing Sheet";
             this.btnSaveToNotepad.UseVisualStyleBackColor = false;
@@ -1040,9 +1042,9 @@
             // 
             this.groupBox5.Controls.Add(this.tableLayoutPanel1);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(44, 13);
+            this.groupBox5.Location = new System.Drawing.Point(35, 104);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(980, 196);
+            this.groupBox5.Size = new System.Drawing.Size(989, 196);
             this.groupBox5.TabIndex = 64;
             this.groupBox5.TabStop = false;
             // 
@@ -1066,7 +1068,7 @@
             this.tableLayoutPanel2.Controls.Add(this.cmbPortType, 7, 1);
             this.tableLayoutPanel2.Controls.Add(this.lblPortType, 6, 1);
             this.tableLayoutPanel2.Controls.Add(this.label13, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(44, 429);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(44, 543);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -1109,7 +1111,7 @@
             // 
             this.groupBox4.Controls.Add(this.DGV_OP_Sheet);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(40, 768);
+            this.groupBox4.Location = new System.Drawing.Point(47, 901);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(417, 40);
             this.groupBox4.TabIndex = 30;
@@ -1122,7 +1124,7 @@
             this.linkReferenceNotes.AutoSize = true;
             this.linkReferenceNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkReferenceNotes.LinkColor = System.Drawing.Color.Blue;
-            this.linkReferenceNotes.Location = new System.Drawing.Point(367, 727);
+            this.linkReferenceNotes.Location = new System.Drawing.Point(369, 840);
             this.linkReferenceNotes.Name = "linkReferenceNotes";
             this.linkReferenceNotes.Size = new System.Drawing.Size(111, 17);
             this.linkReferenceNotes.TabIndex = 66;
@@ -1136,7 +1138,7 @@
             this.btnOpNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOpNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpNo.ForeColor = System.Drawing.Color.White;
-            this.btnOpNo.Location = new System.Drawing.Point(884, 393);
+            this.btnOpNo.Location = new System.Drawing.Point(453, 500);
             this.btnOpNo.Name = "btnOpNo";
             this.btnOpNo.Size = new System.Drawing.Size(140, 30);
             this.btnOpNo.TabIndex = 118;
@@ -1154,7 +1156,7 @@
             this.chkOP031_1.Size = new System.Drawing.Size(656, 20);
             this.chkOP031_1.TabIndex = 119;
             this.chkOP031_1.Text = "Op 031-1  Second port weld OP used in if the offset distance or the port sizes be" +
-                "tween two ports are different";
+    "tween two ports are different";
             this.chkOP031_1.UseVisualStyleBackColor = true;
             // 
             // chkOP044_1
@@ -1167,7 +1169,7 @@
             this.chkOP044_1.Size = new System.Drawing.Size(680, 20);
             this.chkOP044_1.TabIndex = 122;
             this.chkOP044_1.Text = "OP 044-1 Second port weld OP used in only if two different port locators are requ" +
-                "ired or there is a rephasing port";
+    "ired or there is a rephasing port";
             this.chkOP044_1.UseVisualStyleBackColor = true;
             // 
             // chkOP062_1
@@ -1204,7 +1206,7 @@
             this.chkOP054.Size = new System.Drawing.Size(531, 20);
             this.chkOP054.TabIndex = 125;
             this.chkOP054.Text = "OP 054 Wash -Skived WR style  Not req\'d for WRP or for tubes 30” in length or gre" +
-                "ater";
+    "ater";
             this.chkOP054.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
@@ -1218,7 +1220,7 @@
             this.tableLayoutPanel3.Controls.Add(this.chkOP062_1, 0, 4);
             this.tableLayoutPanel3.Controls.Add(this.chkOP054, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.label7, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(59, 216);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(35, 317);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 6;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -1227,7 +1229,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(944, 166);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(989, 166);
             this.tableLayoutPanel3.TabIndex = 126;
             // 
             // label7
@@ -1239,7 +1241,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(3, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(938, 27);
+            this.label7.Size = new System.Drawing.Size(983, 27);
             this.label7.TabIndex = 126;
             this.label7.Text = "Special OP\'s";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1251,20 +1253,43 @@
             this.btnScreenCapture.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnScreenCapture.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScreenCapture.ForeColor = System.Drawing.Color.White;
-            this.btnScreenCapture.Location = new System.Drawing.Point(682, 767);
+            this.btnScreenCapture.Location = new System.Drawing.Point(248, 861);
             this.btnScreenCapture.Name = "btnScreenCapture";
-            this.btnScreenCapture.Size = new System.Drawing.Size(187, 38);
+            this.btnScreenCapture.Size = new System.Drawing.Size(187, 34);
             this.btnScreenCapture.TabIndex = 127;
             this.btnScreenCapture.Text = "Screen Capture";
             this.btnScreenCapture.UseVisualStyleBackColor = false;
             this.btnScreenCapture.Click += new System.EventHandler(this.btnScreenCapture_Click);
+            // 
+            // lblTubeName
+            // 
+            this.lblTubeName.AutoSize = true;
+            this.lblTubeName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTubeName.Location = new System.Drawing.Point(30, 76);
+            this.lblTubeName.Name = "lblTubeName";
+            this.lblTubeName.Size = new System.Drawing.Size(283, 25);
+            this.lblTubeName.TabIndex = 128;
+            this.lblTubeName.Text = "Please Enter Tube Number :";
+            // 
+            // txtTubeNumber
+            // 
+            this.txtTubeNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTubeNumber.Location = new System.Drawing.Point(307, 76);
+            this.txtTubeNumber.Name = "txtTubeNumber";
+            this.txtTubeNumber.Size = new System.Drawing.Size(114, 26);
+            this.txtTubeNumber.TabIndex = 129;
+            this.txtTubeNumber.TextChanged += new System.EventHandler(this.txtTubeNumber_TextChanged);
+            this.txtTubeNumber.Leave += new System.EventHandler(this.txtTubeNumber_Leave);
+            this.txtTubeNumber.Validating += new System.ComponentModel.CancelEventHandler(this.txtTubeNumber_Validating);
             // 
             // CMSTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1072, 826);
+            this.ClientSize = new System.Drawing.Size(1080, 941);
+            this.Controls.Add(this.txtTubeNumber);
+            this.Controls.Add(this.lblTubeName);
             this.Controls.Add(this.btnScreenCapture);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.btnOpNo);
@@ -1396,6 +1421,8 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Button btnScreenCapture;
+        private System.Windows.Forms.Label lblTubeName;
+        private System.Windows.Forms.TextBox txtTubeNumber;
     }
 }
 
